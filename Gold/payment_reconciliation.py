@@ -1,0 +1,31 @@
+from pyspark.sql.functions import col,count,when,sum,round,abs
+orders=spark.table(f"{catalog}.silver.orders")
+payments=spark.table(f"{catalog}.silver.payments")
+successful_counts=(payments.filter(col("payment_status")=="success")
+    .groupBy("order_id")
+    .agg(count("payment_id").alias("successful_payment_count")))
+payment_reconciliation=(payments.alias("p")
+    .join(orders.alias("o"),col("p.order_id")==col("o.order_id"),"left")
+    .join(successful_counts.alias("s"),col("p.order_id")==col("s.order_id"),"left")
+    .select(
+        col("p.payment_id"),
+        col("p.order_id"),
+        col("p.payment_date"),
+        col("p.payment_gateway"),
+        col("p.payment_status"),
+        col("p.amount").alias("payment_amount"),
+        col("p.transaction_fee"),
+        col("p.currency"),
+        col("o.order_status"),
+        col("o.net_amount").alias("order_net_amount"),
+        col("s.successful_payment_count")
+    )
+    .withColumn("amount_difference",round(col("order_net_amount")-col("payment_amount"),2))
+    .withColumn("reconciliation_status",
+        when(col("order_id").isNull(),"invalid_payment")
+        .when((col("payment_status")=="success")&(col("successful_payment_count")>1),"multiple_successful_payments")
+        .when((col("payment_status")=="success")&(abs(col("amount_difference"))<0.01),"reconciled")
+        .when((col("payment_status")=="success"),"amount_mismatch")
+        .when((col("order_status")=="completed")&(col("payment_status")=="failed"),"completed_order_failed_payment")
+        .otherwise("not_applicable")))
+payment_reconciliation.write.format("delta").mode("overwrite").option("overwriteSchema","true").saveAsTable(f"{catalog}.gold.payment_reconciliation")

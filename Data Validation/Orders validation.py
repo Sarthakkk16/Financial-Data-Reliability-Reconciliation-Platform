@@ -1,0 +1,22 @@
+orders=spark.table(f"{catalog}.silver.orders")
+orders_validation=(orders
+    .withColumn("calculated_net_amount",col("gross_amount")-col("discount_amount")+col("shipping_fee")+col("tax_amount"))
+    .withColumn("dq_status",
+        when(col("order_id").isNull()| (col("order_id")=="") ,"FAIL")
+        .when(col("customer_id").isNull()| (col("customer_id")=="") ,"FAIL")
+        .when(col("gross_amount")<0,"FAIL")
+        .when(col("discount_amount")<0,"FAIL")
+        .when(col("shipping_fee")<0,"FAIL")
+        .when(col("tax_amount")<0,"FAIL")
+        .when(col("net_amount")<0,"FAIL")
+        .otherwise("PASS"))
+    .withColumn("dq_reason",
+        when(col("order_id").isNull()| (col("order_id")==""),"missing_order_id")
+        .when(col("customer_id").isNull()| (col("customer_id")=="") ,"missing_customer_id")
+        .when(col("gross_amount")<0,"negative_gross_amount")
+        .when(col("discount_amount")<0,"negative_discount")
+        .when(col("shipping_fee")<0,"negative_shipping_fee")
+        .when(col("tax_amount")<0,"negative_tax")
+        .when(col("net_amount")<0,"negative_net_amount")
+        .otherwise("valid")))
+orders_validation.write.format("delta").mode("overwrite").option("overwriteSchema","true").saveAsTable(f"{catalog}.dq.orders_validation")
