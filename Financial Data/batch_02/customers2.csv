@@ -1,0 +1,801 @@
+customer_id,customer_name,email,city,state,customer_segment,acquisition_channel,signup_date,updated_at
+CUST001333,Customer 01333,customer01333@example.com,Ahmedabad,Gujarat,Returning,Social,2026-01-15,2026-09-26 11:00:00
+CUST002845,Customer 02845,customer02845@example.com,Mumbai,Maharashtra,New,Direct,2025-01-16,2026-09-26 11:00:00
+CUST004666,Customer 04666,customer04666@example.com,Noida,Uttar Pradesh,Premium,Affiliate,2025-04-05,2026-09-26 11:00:00
+CUST003409,Customer 03409,customer03409@example.com,Mumbai,Maharashtra,New,Direct,2025-08-28,2026-09-26 11:00:00
+CUST000976,Customer 00976,customer00976@example.com,Delhi,Delhi,Dormant,Organic,2026-02-12,2026-09-26 11:00:00
+CUST000284,Customer 00284,customer00284@example.com,Chennai,Tamil Nadu,Premium,Social,2025-10-20,2026-09-26 11:00:00
+CUST004983,Customer 04983,customer04983@example.com,Pune,Maharashtra,Premium,Paid Ads,2026-01-10,2026-09-26 11:00:00
+CUST004881,Customer 04881,customer04881@example.com,Chennai,Tamil Nadu,Premium,Email,2026-07-12,2026-09-26 11:00:00
+CUST002982,Customer 02982,customer02982@example.com,Hyderabad,Telangana,Returning,Affiliate,2026-08-20,2026-09-26 11:00:00
+CUST001831,Customer 01831,customer01831@example.com,Hyderabad,Telangana,Returning,Affiliate,2026-04-03,2026-09-26 11:00:00
+CUST003059,Customer 03059,customer03059@example.com,Mumbai,Maharashtra,Dormant,Paid Ads,2026-06-19,2026-09-26 11:00:00
+CUST003594,Customer 03594,customer03594@example.com,Kolkata,West Bengal,New,Organic,2025-09-23,2026-09-26 11:00:00
+CUST003220,Customer 03220,customer03220@example.com,Delhi,Delhi,Dormant,Affiliate,2025-10-09,2026-09-26 11:00:00
+CUST001841,Customer 01841,customer01841@example.com,Noida,Uttar Pradesh,New,Organic,2025-08-21,2026-09-26 11:00:00
+CUST001839,Customer 01839,customer01839@example.com,Chennai,Tamil Nadu,Dormant,Paid Ads,2026-03-23,2026-09-26 11:00:00
+CUST004565,Customer 04565,customer04565@example.com,Mumbai,Maharashtra,Premium,Organic,2026-03-30,2026-09-26 11:00:00
+CUST001700,Customer 01700,customer01700@example.com,Ahmedabad,Gujarat,New,Social,2026-02-28,2026-09-26 11:00:00
+CUST000276,Customer 00276,customer00276@example.com,Delhi,Delhi,New,Organic,2025-05-30,2026-09-26 11:00:00
+CUST004324,Customer 04324,customer04324@example.com,Kolkata,West Bengal,Returning,Social,2025-04-11,2026-09-26 11:00:00
+CUST004257,Customer 04257,customer04257@example.com,Kolkata,West Bengal,Dormant,Paid Ads,2025-08-23,2026-09-26 11:00:00
+CUST001446,Customer 01446,customer01446@example.com,Delhi,Delhi,Dormant,Paid Ads,2025-07-21,2026-09-26 11:00:00
+CUST000430,Customer 00430,customer00430@example.com,Ahmedabad,Gujarat,Dormant,Email,2025-05-07,2026-09-26 11:00:00
+CUST000513,Customer 00513,customer00513@example.com,Delhi,Delhi,Premium,Social,2025-02-17,2026-09-26 11:00:00
+CUST004219,Customer 04219,customer04219@example.com,Chennai,Tamil Nadu,Returning,Direct,2026-03-02,2026-09-26 11:00:00
+CUST001746,Customer 01746,customer01746@example.com,Jaipur,Rajasthan,Returning,Direct,2026-04-03,2026-09-26 11:00:00
+CUST000434,Customer 00434,customer00434@example.com,Mumbai,Maharashtra,Premium,Email,2025-01-03,2026-09-26 11:00:00
+CUST000313,Customer 00313,customer00313@example.com,Pune,Maharashtra,Returning,Paid Ads,2026-01-27,2026-09-26 11:00:00
+CUST003193,Customer 03193,customer03193@example.com,Chennai,Tamil Nadu,Premium,Direct,2025-06-09,2026-09-26 11:00:00
+CUST002172,Customer 02172,customer02172@example.com,Mumbai,Maharashtra,New,Direct,2025-09-08,2026-09-26 11:00:00
+CUST003107,Customer 03107,customer03107@example.com,Delhi,Delhi,Returning,Affiliate,2025-01-01,2026-09-26 11:00:00
+CUST000725,Customer 00725,customer00725@example.com,Mumbai,Maharashtra,Dormant,Direct,2026-05-31,2026-09-26 11:00:00
+CUST001946,Customer 01946,customer01946@example.com,Hyderabad,Telangana,Returning,Paid Ads,2026-04-17,2026-09-26 11:00:00
+CUST001820,Customer 01820,customer01820@example.com,Noida,Uttar Pradesh,New,Organic,2026-04-14,2026-09-26 11:00:00
+CUST003852,Customer 03852,customer03852@example.com,Bengaluru,Karnataka,New,Social,2025-02-04,2026-09-26 11:00:00
+CUST001101,Customer 01101,customer01101@example.com,Ahmedabad,Gujarat,Premium,Direct,2026-05-03,2026-09-26 11:00:00
+CUST002563,Customer 02563,customer02563@example.com,Hyderabad,Telangana,Returning,Paid Ads,2025-10-06,2026-09-26 11:00:00
+CUST001122,Customer 01122,customer01122@example.com,Kolkata,West Bengal,New,Organic,2025-02-18,2026-09-26 11:00:00
+CUST003038,Customer 03038,customer03038@example.com,Bengaluru,Karnataka,Dormant,Affiliate,2026-05-26,2026-09-26 11:00:00
+CUST002247,Customer 02247,customer02247@example.com,Ahmedabad,Gujarat,Premium,Organic,2026-03-27,2026-09-26 11:00:00
+CUST004759,Customer 04759,customer04759@example.com,Noida,Uttar Pradesh,Returning,Social,2025-11-19,2026-09-26 11:00:00
+CUST003200,Customer 03200,customer03200@example.com,Bengaluru,Karnataka,Returning,Paid Ads,2025-02-23,2026-09-26 11:00:00
+CUST003984,Customer 03984,customer03984@example.com,Kolkata,West Bengal,Returning,Paid Ads,2026-05-30,2026-09-26 11:00:00
+CUST000403,Customer 00403,customer00403@example.com,Bengaluru,Karnataka,New,Paid Ads,2025-09-20,2026-09-26 11:00:00
+CUST002415,Customer 02415,customer02415@example.com,Hyderabad,Telangana,Premium,Email,2025-10-28,2026-09-26 11:00:00
+CUST004690,Customer 04690,customer04690@example.com,Mumbai,Maharashtra,Dormant,Organic,2026-08-21,2026-09-26 11:00:00
+CUST002667,Customer 02667,customer02667@example.com,Bengaluru,Karnataka,New,Affiliate,2026-08-11,2026-09-26 11:00:00
+CUST003070,Customer 03070,customer03070@example.com,Kolkata,West Bengal,New,Organic,2025-09-22,2026-09-26 11:00:00
+CUST003171,Customer 03171,customer03171@example.com,Jaipur,Rajasthan,Returning,Affiliate,2025-10-12,2026-09-26 11:00:00
+CUST000856,Customer 00856,customer00856@example.com,Chennai,Tamil Nadu,New,Affiliate,2026-08-01,2026-09-26 11:00:00
+CUST000375,Customer 00375,customer00375@example.com,Mumbai,Maharashtra,Returning,Social,2025-03-22,2026-09-26 11:00:00
+CUST000160,Customer 00160,customer00160@example.com,Mumbai,Maharashtra,Dormant,Direct,2025-03-19,2026-09-26 11:00:00
+CUST000439,Customer 00439,customer00439@example.com,Mumbai,Maharashtra,Premium,Social,2026-04-22,2026-09-26 11:00:00
+CUST002162,Customer 02162,customer02162@example.com,Ahmedabad,Gujarat,Premium,Direct,2026-05-03,2026-09-26 11:00:00
+CUST004702,Customer 04702,customer04702@example.com,Bengaluru,Karnataka,New,Paid Ads,2026-07-04,2026-09-26 11:00:00
+CUST003528,Customer 03528,customer03528@example.com,Chennai,Tamil Nadu,New,Paid Ads,2025-04-04,2026-09-26 11:00:00
+CUST004115,Customer 04115,customer04115@example.com,Delhi,Delhi,New,Affiliate,2026-04-13,2026-09-26 11:00:00
+CUST002022,Customer 02022,customer02022@example.com,Kolkata,West Bengal,Premium,Email,2026-03-01,2026-09-26 11:00:00
+CUST000988,Customer 00988,customer00988@example.com,Ahmedabad,Gujarat,New,Direct,2025-06-19,2026-09-26 11:00:00
+CUST004708,Customer 04708,customer04708@example.com,Mumbai,Maharashtra,New,Email,2025-12-23,2026-09-26 11:00:00
+CUST002108,Customer 02108,customer02108@example.com,Mumbai,Maharashtra,New,Organic,2025-04-21,2026-09-26 11:00:00
+CUST000837,Customer 00837,customer00837@example.com,Kolkata,West Bengal,Premium,Social,2026-06-28,2026-09-26 11:00:00
+CUST001577,Customer 01577,customer01577@example.com,Delhi,Delhi,Returning,Email,2026-03-04,2026-09-26 11:00:00
+CUST002596,Customer 02596,customer02596@example.com,Hyderabad,Telangana,Premium,Email,2026-06-19,2026-09-26 11:00:00
+CUST000001,Customer 00001,missing@email,Jaipur,Rajasthan,Premium,Social,2026-05-08,2026-09-26 11:00:00
+CUST001539,Customer 01539,customer01539@example.com,Hyderabad,Telangana,Dormant,Organic,2025-09-08,2026-09-26 11:00:00
+CUST004177,Customer 04177,customer04177@example.com,Pune,Maharashtra,Premium,Direct,2025-03-09,2026-09-26 11:00:00
+CUST001826,Customer 01826,missing@email,Chennai,Tamil Nadu,New,Email,2025-02-02,2026-09-26 11:00:00
+CUST004015,Customer 04015,customer04015@example.com,Kolkata,West Bengal,New,Email,2026-05-01,2026-09-26 11:00:00
+CUST001300,Customer 01300,customer01300@example.com,Ahmedabad,Gujarat,Premium,Organic,2025-09-04,2026-09-26 11:00:00
+CUST000069,Customer 00069,customer00069@example.com,Mumbai,Maharashtra,New,Email,2026-04-26,2026-09-26 11:00:00
+CUST002716,Customer 02716,customer02716@example.com,Bengaluru,Karnataka,Returning,Paid Ads,2025-05-18,2026-09-26 11:00:00
+CUST004944,Customer 04944,customer04944@example.com,Chennai,Tamil Nadu,Premium,Paid Ads,2026-08-05,2026-09-26 11:00:00
+CUST002903,Customer 02903,customer02903@example.com,Jaipur,Rajasthan,Dormant,Paid Ads,2025-07-21,2026-09-26 11:00:00
+CUST000828,Customer 00828,customer00828@example.com,Chennai,Tamil Nadu,Returning,Social,2025-06-17,2026-09-26 11:00:00
+CUST000210,Customer 00210,customer00210@example.com,Kolkata,West Bengal,Dormant,Paid Ads,2026-03-19,2026-09-26 11:00:00
+CUST004870,Customer 04870,customer04870@example.com,Noida,Uttar Pradesh,Returning,Social,2026-03-17,2026-09-26 11:00:00
+CUST000222,Customer 00222,customer00222@example.com,Noida,Uttar Pradesh,New,Paid Ads,2025-05-17,2026-09-26 11:00:00
+CUST001934,Customer 01934,customer01934@example.com,Delhi,Delhi,Premium,Social,2026-01-13,2026-09-26 11:00:00
+CUST001652,Customer 01652,customer01652@example.com,Ahmedabad,Gujarat,New,Direct,2026-07-09,2026-09-26 11:00:00
+CUST001812,Customer 01812,customer01812@example.com,Pune,Maharashtra,Premium,Social,2025-08-23,2026-09-26 11:00:00
+CUST002164,Customer 02164,customer02164@example.com,Chennai,Tamil Nadu,New,Organic,2025-08-28,2026-09-26 11:00:00
+CUST001716,Customer 01716,customer01716@example.com,Delhi,Delhi,Premium,Social,2025-01-10,2026-09-26 11:00:00
+CUST001280,Customer 01280,customer01280@example.com,Delhi,Delhi,Returning,Affiliate,2026-04-23,2026-09-26 11:00:00
+CUST004472,Customer 04472,customer04472@example.com,Bengaluru,Karnataka,New,Direct,2025-06-25,2026-09-26 11:00:00
+CUST004959,Customer 04959,customer04959@example.com,Kolkata,West Bengal,Premium,Social,2025-11-28,2026-09-26 11:00:00
+CUST004716,Customer 04716,customer04716@example.com,Hyderabad,Telangana,Premium,Organic,2025-07-29,2026-09-26 11:00:00
+CUST000363,Customer 00363,customer00363@example.com,Hyderabad,Telangana,Dormant,Email,2025-02-19,2026-09-26 11:00:00
+CUST002832,Customer 02832,customer02832@example.com,Jaipur,Rajasthan,New,Organic,2025-07-14,2026-09-26 11:00:00
+CUST003545,Customer 03545,missing@email,Bengaluru,Karnataka,New,Affiliate,2026-04-06,2026-09-26 11:00:00
+CUST003969,Customer 03969,customer03969@example.com,Jaipur,Rajasthan,New,Affiliate,2026-04-09,2026-09-26 11:00:00
+CUST004529,Customer 04529,customer04529@example.com,Ahmedabad,Gujarat,New,Paid Ads,2026-06-19,2026-09-26 11:00:00
+CUST000337,Customer 00337,customer00337@example.com,Hyderabad,Telangana,New,Paid Ads,2026-04-10,2026-09-26 11:00:00
+CUST001191,Customer 01191,customer01191@example.com,Delhi,Delhi,Premium,Organic,2026-01-23,2026-09-26 11:00:00
+CUST002333,Customer 02333,customer02333@example.com,Delhi,Delhi,Dormant,Paid Ads,2025-12-02,2026-09-26 11:00:00
+CUST000214,Customer 00214,customer00214@example.com,Jaipur,Rajasthan,Returning,Social,2025-04-05,2026-09-26 11:00:00
+CUST003308,Customer 03308,customer03308@example.com,Jaipur,Rajasthan,New,Affiliate,2025-11-12,2026-09-26 11:00:00
+CUST001603,Customer 01603,customer01603@example.com,Pune,Maharashtra,Dormant,Social,2026-02-18,2026-09-26 11:00:00
+CUST002089,Customer 02089,customer02089@example.com,Ahmedabad,Gujarat,Dormant,Organic,2025-06-20,2026-09-26 11:00:00
+CUST000606,Customer 00606,customer00606@example.com,Pune,Maharashtra,Returning,Email,2025-03-01,2026-09-26 11:00:00
+CUST001659,Customer 01659,customer01659@example.com,Noida,Uttar Pradesh,Returning,Paid Ads,2025-10-14,2026-09-26 11:00:00
+CUST002550,Customer 02550,customer02550@example.com,Kolkata,West Bengal,Dormant,Direct,2026-03-19,2026-09-26 11:00:00
+CUST000846,Customer 00846,customer00846@example.com,Chennai,Tamil Nadu,Returning,Email,2026-05-21,2026-09-26 11:00:00
+CUST004041,Customer 04041,customer04041@example.com,Ahmedabad,Gujarat,Premium,Paid Ads,2026-02-12,2026-09-26 11:00:00
+CUST000087,Customer 00087,customer00087@example.com,Jaipur,Rajasthan,New,Paid Ads,2026-03-16,2026-09-26 11:00:00
+CUST004575,Customer 04575,customer04575@example.com,Ahmedabad,Gujarat,Premium,Organic,2025-08-14,2026-09-26 11:00:00
+CUST003277,Customer 03277,customer03277@example.com,Bengaluru,Karnataka,Premium,Paid Ads,2026-01-16,2026-09-26 11:00:00
+CUST002634,Customer 02634,customer02634@example.com,Noida,Uttar Pradesh,Dormant,Social,2026-06-24,2026-09-26 11:00:00
+CUST002695,Customer 02695,customer02695@example.com,Kolkata,West Bengal,New,Affiliate,2025-08-14,2026-09-26 11:00:00
+CUST003223,Customer 03223,customer03223@example.com,Mumbai,Maharashtra,New,Social,2025-06-18,2026-09-26 11:00:00
+CUST001059,Customer 01059,customer01059@example.com,Kolkata,West Bengal,Dormant,Email,2026-06-17,2026-09-26 11:00:00
+CUST003007,Customer 03007,missing@email,Kolkata,West Bengal,New,Affiliate,2026-04-30,2026-09-26 11:00:00
+CUST000532,Customer 00532,customer00532@example.com,Kolkata,West Bengal,Premium,Social,2026-07-27,2026-09-26 11:00:00
+CUST004157,Customer 04157,customer04157@example.com,Kolkata,West Bengal,New,Email,2025-01-28,2026-09-26 11:00:00
+CUST000814,Customer 00814,customer00814@example.com,Chennai,Tamil Nadu,Dormant,Social,2025-11-30,2026-09-26 11:00:00
+CUST002793,Customer 02793,customer02793@example.com,Mumbai,Maharashtra,New,Email,2026-03-05,2026-09-26 11:00:00
+CUST003693,Customer 03693,customer03693@example.com,Mumbai,Maharashtra,Returning,Email,2026-04-26,2026-09-26 11:00:00
+CUST002299,Customer 02299,customer02299@example.com,Ahmedabad,Gujarat,Dormant,Organic,2025-09-20,2026-09-26 11:00:00
+CUST003991,Customer 03991,customer03991@example.com,Mumbai,Maharashtra,Premium,Affiliate,2025-10-12,2026-09-26 11:00:00
+CUST003893,Customer 03893,customer03893@example.com,Kolkata,West Bengal,Returning,Organic,2026-02-18,2026-09-26 11:00:00
+CUST000093,Customer 00093,customer00093@example.com,Jaipur,Rajasthan,Dormant,Organic,2025-06-27,2026-09-26 11:00:00
+CUST001378,Customer 01378,customer01378@example.com,Jaipur,Rajasthan,Dormant,Direct,2026-07-17,2026-09-26 11:00:00
+CUST004641,Customer 04641,customer04641@example.com,Hyderabad,Telangana,Returning,Affiliate,2025-04-16,2026-09-26 11:00:00
+CUST004683,Customer 04683,customer04683@example.com,Bengaluru,Karnataka,Returning,Organic,2025-01-15,2026-09-26 11:00:00
+CUST000942,Customer 00942,customer00942@example.com,Pune,Maharashtra,Returning,Direct,2026-05-10,2026-09-26 11:00:00
+CUST001110,Customer 01110,customer01110@example.com,Jaipur,Rajasthan,Dormant,Direct,2025-07-16,2026-09-26 11:00:00
+CUST000273,Customer 00273,customer00273@example.com,Hyderabad,Telangana,New,Affiliate,2026-07-02,2026-09-26 11:00:00
+CUST000230,Customer 00230,customer00230@example.com,Delhi,Delhi,Returning,Email,2026-01-22,2026-09-26 11:00:00
+CUST004704,Customer 04704,customer04704@example.com,Mumbai,Maharashtra,Dormant,Paid Ads,2025-10-15,2026-09-26 11:00:00
+CUST003110,Customer 03110,customer03110@example.com,Ahmedabad,Gujarat,Returning,Social,2026-08-23,2026-09-26 11:00:00
+CUST002727,Customer 02727,customer02727@example.com,Chennai,Tamil Nadu,Premium,Email,2025-05-17,2026-09-26 11:00:00
+CUST002525,Customer 02525,customer02525@example.com,Jaipur,Rajasthan,Premium,Social,2025-05-07,2026-09-26 11:00:00
+CUST004123,Customer 04123,customer04123@example.com,Mumbai,Maharashtra,Returning,Organic,2025-01-04,2026-09-26 11:00:00
+CUST002231,Customer 02231,customer02231@example.com,Delhi,Delhi,Dormant,Email,2025-12-06,2026-09-26 11:00:00
+CUST004915,Customer 04915,customer04915@example.com,Hyderabad,Telangana,Dormant,Email,2025-09-29,2026-09-26 11:00:00
+CUST002612,Customer 02612,customer02612@example.com,Kolkata,West Bengal,Premium,Social,2025-10-13,2026-09-26 11:00:00
+CUST004029,Customer 04029,customer04029@example.com,Mumbai,Maharashtra,Dormant,Email,2026-05-02,2026-09-26 11:00:00
+CUST001370,Customer 01370,customer01370@example.com,Bengaluru,Karnataka,New,Email,2025-04-27,2026-09-26 11:00:00
+CUST001895,Customer 01895,customer01895@example.com,Chennai,Tamil Nadu,New,Paid Ads,2026-07-27,2026-09-26 11:00:00
+CUST000909,Customer 00909,customer00909@example.com,Bengaluru,Karnataka,Premium,Social,2026-01-02,2026-09-26 11:00:00
+CUST002580,Customer 02580,customer02580@example.com,Hyderabad,Telangana,Returning,Paid Ads,2025-11-29,2026-09-26 11:00:00
+CUST002608,Customer 02608,customer02608@example.com,Hyderabad,Telangana,Premium,Paid Ads,2026-02-25,2026-09-26 11:00:00
+CUST003130,Customer 03130,customer03130@example.com,Delhi,Delhi,Returning,Direct,2025-03-29,2026-09-26 11:00:00
+CUST000655,Customer 00655,customer00655@example.com,Ahmedabad,Gujarat,Dormant,Direct,2026-02-11,2026-09-26 11:00:00
+CUST003932,Customer 03932,customer03932@example.com,Hyderabad,Telangana,Dormant,Affiliate,2025-12-22,2026-09-26 11:00:00
+CUST004686,Customer 04686,customer04686@example.com,Delhi,Delhi,Dormant,Organic,2025-10-16,2026-09-26 11:00:00
+CUST000779,Customer 00779,customer00779@example.com,Noida,Uttar Pradesh,Dormant,Direct,2025-12-30,2026-09-26 11:00:00
+CUST001771,Customer 01771,customer01771@example.com,Noida,Uttar Pradesh,Premium,Paid Ads,2025-07-09,2026-09-26 11:00:00
+CUST001751,Customer 01751,customer01751@example.com,Ahmedabad,Gujarat,Dormant,Paid Ads,2025-12-13,2026-09-26 11:00:00
+CUST002245,Customer 02245,customer02245@example.com,Noida,Uttar Pradesh,Returning,Direct,2026-01-18,2026-09-26 11:00:00
+CUST001792,Customer 01792,customer01792@example.com,Pune,Maharashtra,Returning,Affiliate,2025-11-18,2026-09-26 11:00:00
+CUST000445,Customer 00445,customer00445@example.com,Pune,Maharashtra,New,Organic,2025-10-30,2026-09-26 11:00:00
+CUST002805,Customer 02805,customer02805@example.com,Pune,Maharashtra,Premium,Email,2026-07-16,2026-09-26 11:00:00
+CUST001130,Customer 01130,customer01130@example.com,Kolkata,West Bengal,Dormant,Social,2025-05-01,2026-09-26 11:00:00
+CUST000554,Customer 00554,customer00554@example.com,Hyderabad,Telangana,Premium,Paid Ads,2026-03-25,2026-09-26 11:00:00
+CUST001467,Customer 01467,customer01467@example.com,Kolkata,West Bengal,Returning,Affiliate,2026-08-08,2026-09-26 11:00:00
+CUST001471,Customer 01471,missing@email,Chennai,Tamil Nadu,Returning,Affiliate,2026-04-24,2026-09-26 11:00:00
+CUST001952,Customer 01952,customer01952@example.com,Mumbai,Maharashtra,Premium,Affiliate,2026-07-31,2026-09-26 11:00:00
+CUST000710,Customer 00710,customer00710@example.com,Noida,Uttar Pradesh,New,Social,2026-08-02,2026-09-26 11:00:00
+CUST003857,Customer 03857,customer03857@example.com,Ahmedabad,Gujarat,Premium,Email,2026-06-07,2026-09-26 11:00:00
+CUST001912,Customer 01912,customer01912@example.com,Chennai,Tamil Nadu,Premium,Paid Ads,2026-05-21,2026-09-26 11:00:00
+CUST002073,Customer 02073,customer02073@example.com,Kolkata,West Bengal,New,Social,2026-07-06,2026-09-26 11:00:00
+CUST001708,Customer 01708,customer01708@example.com,Jaipur,Rajasthan,Dormant,Email,2025-05-01,2026-09-26 11:00:00
+CUST003606,Customer 03606,missing@email,Pune,Maharashtra,New,Paid Ads,2026-03-01,2026-09-26 11:00:00
+CUST001124,Customer 01124,customer01124@example.com,Delhi,Delhi,Dormant,Paid Ads,2025-12-22,2026-09-26 11:00:00
+CUST001340,Customer 01340,customer01340@example.com,Bengaluru,Karnataka,New,Direct,2025-02-11,2026-09-26 11:00:00
+CUST000612,Customer 00612,customer00612@example.com,Kolkata,West Bengal,New,Organic,2026-03-26,2026-09-26 11:00:00
+CUST000784,Customer 00784,customer00784@example.com,Jaipur,Rajasthan,Dormant,Email,2025-07-10,2026-09-26 11:00:00
+CUST000006,Customer 00006,customer00006@example.com,Kolkata,West Bengal,Returning,Email,2026-03-28,2026-09-26 11:00:00
+CUST004365,Customer 04365,customer04365@example.com,Delhi,Delhi,Premium,Direct,2026-02-13,2026-09-26 11:00:00
+CUST001649,Customer 01649,customer01649@example.com,Hyderabad,Telangana,New,Social,2025-11-30,2026-09-26 11:00:00
+CUST004303,Customer 04303,customer04303@example.com,Kolkata,West Bengal,Premium,Email,2026-07-07,2026-09-26 11:00:00
+CUST003294,Customer 03294,customer03294@example.com,Bengaluru,Karnataka,New,Direct,2026-05-24,2026-09-26 11:00:00
+CUST004947,Customer 04947,customer04947@example.com,Hyderabad,Telangana,Returning,Social,2025-03-21,2026-09-26 11:00:00
+CUST003966,Customer 03966,customer03966@example.com,Noida,Uttar Pradesh,New,Organic,2025-10-31,2026-09-26 11:00:00
+CUST003090,Customer 03090,customer03090@example.com,Chennai,Tamil Nadu,Dormant,Social,2026-02-08,2026-09-26 11:00:00
+CUST002230,Customer 02230,customer02230@example.com,Chennai,Tamil Nadu,New,Organic,2026-03-22,2026-09-26 11:00:00
+CUST000636,Customer 00636,customer00636@example.com,Delhi,Delhi,New,Email,2026-07-10,2026-09-26 11:00:00
+CUST001452,Customer 01452,customer01452@example.com,Mumbai,Maharashtra,New,Paid Ads,2025-07-31,2026-09-26 11:00:00
+CUST003158,Customer 03158,customer03158@example.com,Bengaluru,Karnataka,Premium,Affiliate,2025-01-26,2026-09-26 11:00:00
+CUST004148,Customer 04148,customer04148@example.com,Jaipur,Rajasthan,Dormant,Organic,2025-12-28,2026-09-26 11:00:00
+CUST001419,Customer 01419,customer01419@example.com,Noida,Uttar Pradesh,Dormant,Paid Ads,2025-07-03,2026-09-26 11:00:00
+CUST004328,Customer 04328,customer04328@example.com,Pune,Maharashtra,New,Direct,2026-07-19,2026-09-26 11:00:00
+CUST003798,Customer 03798,customer03798@example.com,Kolkata,West Bengal,New,Social,2026-03-24,2026-09-26 11:00:00
+CUST004753,Customer 04753,customer04753@example.com,Noida,Uttar Pradesh,Dormant,Social,2026-06-13,2026-09-26 11:00:00
+CUST003246,Customer 03246,customer03246@example.com,Pune,Maharashtra,Premium,Email,2025-08-31,2026-09-26 11:00:00
+CUST000116,Customer 00116,customer00116@example.com,Bengaluru,Karnataka,Premium,Affiliate,2025-05-27,2026-09-26 11:00:00
+CUST000227,Customer 00227,customer00227@example.com,Delhi,Delhi,Premium,Paid Ads,2025-04-06,2026-09-26 11:00:00
+CUST002436,Customer 02436,customer02436@example.com,Hyderabad,Telangana,Returning,Social,2025-09-18,2026-09-26 11:00:00
+CUST000933,Customer 00933,customer00933@example.com,Hyderabad,Telangana,Returning,Direct,2025-08-09,2026-09-26 11:00:00
+CUST003279,Customer 03279,customer03279@example.com,Bengaluru,Karnataka,New,Email,2026-07-02,2026-09-26 11:00:00
+CUST003387,Customer 03387,customer03387@example.com,Mumbai,Maharashtra,New,Social,2026-01-30,2026-09-26 11:00:00
+CUST004999,Customer 04999,customer04999@example.com,Ahmedabad,Gujarat,New,Organic,2026-08-01,2026-09-26 11:00:00
+CUST004013,Customer 04013,customer04013@example.com,Mumbai,Maharashtra,Premium,Direct,2025-08-28,2026-09-26 11:00:00
+CUST003812,Customer 03812,customer03812@example.com,Jaipur,Rajasthan,Returning,Direct,2025-09-21,2026-09-26 11:00:00
+CUST004374,Customer 04374,customer04374@example.com,Chennai,Tamil Nadu,New,Organic,2025-09-14,2026-09-26 11:00:00
+CUST000475,Customer 00475,customer00475@example.com,Delhi,Delhi,Returning,Social,2025-04-27,2026-09-26 11:00:00
+CUST000815,Customer 00815,customer00815@example.com,Hyderabad,Telangana,Dormant,Direct,2025-06-25,2026-09-26 11:00:00
+CUST001313,Customer 01313,customer01313@example.com,Mumbai,Maharashtra,New,Paid Ads,2025-10-28,2026-09-26 11:00:00
+CUST003527,Customer 03527,missing@email,Kolkata,West Bengal,Dormant,Paid Ads,2026-08-14,2026-09-26 11:00:00
+CUST001579,Customer 01579,customer01579@example.com,Kolkata,West Bengal,Dormant,Paid Ads,2025-08-04,2026-09-26 11:00:00
+CUST002606,Customer 02606,customer02606@example.com,Chennai,Tamil Nadu,New,Organic,2025-07-19,2026-09-26 11:00:00
+CUST004496,Customer 04496,customer04496@example.com,Chennai,Tamil Nadu,Dormant,Direct,2025-03-11,2026-09-26 11:00:00
+CUST004996,Customer 04996,customer04996@example.com,Noida,Uttar Pradesh,Returning,Email,2025-10-23,2026-09-26 11:00:00
+CUST000656,Customer 00656,customer00656@example.com,Noida,Uttar Pradesh,Premium,Direct,2025-11-04,2026-09-26 11:00:00
+CUST000729,Customer 00729,customer00729@example.com,Hyderabad,Telangana,New,Email,2026-07-07,2026-09-26 11:00:00
+CUST000861,Customer 00861,customer00861@example.com,Chennai,Tamil Nadu,New,Direct,2025-05-26,2026-09-26 11:00:00
+CUST001204,Customer 01204,customer01204@example.com,Bengaluru,Karnataka,New,Organic,2026-03-29,2026-09-26 11:00:00
+CUST001955,Customer 01955,customer01955@example.com,Kolkata,West Bengal,Returning,Paid Ads,2026-08-12,2026-09-26 11:00:00
+CUST001012,Customer 01012,customer01012@example.com,Chennai,Tamil Nadu,Premium,Social,2026-01-02,2026-09-26 11:00:00
+CUST003072,Customer 03072,customer03072@example.com,Jaipur,Rajasthan,Premium,Paid Ads,2026-03-21,2026-09-26 11:00:00
+CUST001671,Customer 01671,customer01671@example.com,Noida,Uttar Pradesh,Premium,Paid Ads,2026-03-26,2026-09-26 11:00:00
+CUST001733,Customer 01733,customer01733@example.com,Jaipur,Rajasthan,Premium,Direct,2025-01-01,2026-09-26 11:00:00
+CUST002960,Customer 02960,customer02960@example.com,Bengaluru,Karnataka,Returning,Email,2026-05-14,2026-09-26 11:00:00
+CUST000063,Customer 00063,customer00063@example.com,Jaipur,Rajasthan,Dormant,Social,2026-06-01,2026-09-26 11:00:00
+CUST004339,Customer 04339,customer04339@example.com,Mumbai,Maharashtra,Returning,Direct,2025-05-28,2026-09-26 11:00:00
+CUST004436,Customer 04436,customer04436@example.com,Chennai,Tamil Nadu,New,Direct,2025-07-20,2026-09-26 11:00:00
+CUST003278,Customer 03278,missing@email,Ahmedabad,Gujarat,Dormant,Paid Ads,2025-06-07,2026-09-26 11:00:00
+CUST001036,Customer 01036,customer01036@example.com,Noida,Uttar Pradesh,Returning,Direct,2026-04-04,2026-09-26 11:00:00
+CUST003725,Customer 03725,customer03725@example.com,Pune,Maharashtra,Returning,Social,2025-01-13,2026-09-26 11:00:00
+CUST002884,Customer 02884,customer02884@example.com,Chennai,Tamil Nadu,New,Affiliate,2025-04-30,2026-09-26 11:00:00
+CUST004477,Customer 04477,customer04477@example.com,Kolkata,West Bengal,Returning,Affiliate,2025-01-05,2026-09-26 11:00:00
+CUST001938,Customer 01938,customer01938@example.com,Chennai,Tamil Nadu,Dormant,Email,2025-07-06,2026-09-26 11:00:00
+CUST002025,Customer 02025,customer02025@example.com,Ahmedabad,Gujarat,Premium,Social,2026-08-18,2026-09-26 11:00:00
+CUST004501,Customer 04501,customer04501@example.com,Hyderabad,Telangana,Premium,Organic,2025-10-19,2026-09-26 11:00:00
+CUST003848,Customer 03848,customer03848@example.com,Jaipur,Rajasthan,Dormant,Social,2025-11-11,2026-09-26 11:00:00
+CUST004790,Customer 04790,customer04790@example.com,Delhi,Delhi,Returning,Direct,2025-12-15,2026-09-26 11:00:00
+CUST001890,Customer 01890,customer01890@example.com,Bengaluru,Karnataka,Premium,Email,2025-06-11,2026-09-26 11:00:00
+CUST004473,Customer 04473,customer04473@example.com,Pune,Maharashtra,Returning,Paid Ads,2025-02-21,2026-09-26 11:00:00
+CUST000949,Customer 00949,customer00949@example.com,Delhi,Delhi,Returning,Paid Ads,2025-10-20,2026-09-26 11:00:00
+CUST004610,Customer 04610,customer04610@example.com,Pune,Maharashtra,Dormant,Email,2026-07-21,2026-09-26 11:00:00
+CUST002872,Customer 02872,customer02872@example.com,Mumbai,Maharashtra,Dormant,Direct,2025-02-24,2026-09-26 11:00:00
+CUST004792,Customer 04792,customer04792@example.com,Bengaluru,Karnataka,Premium,Organic,2025-01-26,2026-09-26 11:00:00
+CUST004091,Customer 04091,customer04091@example.com,Hyderabad,Telangana,Premium,Social,2026-05-04,2026-09-26 11:00:00
+CUST000603,Customer 00603,customer00603@example.com,Jaipur,Rajasthan,New,Direct,2025-12-12,2026-09-26 11:00:00
+CUST003212,Customer 03212,customer03212@example.com,Pune,Maharashtra,New,Affiliate,2025-10-31,2026-09-26 11:00:00
+CUST004118,Customer 04118,customer04118@example.com,Noida,Uttar Pradesh,Returning,Organic,2025-06-25,2026-09-26 11:00:00
+CUST003985,Customer 03985,customer03985@example.com,Pune,Maharashtra,New,Paid Ads,2026-03-19,2026-09-26 11:00:00
+CUST004312,Customer 04312,customer04312@example.com,Delhi,Delhi,Returning,Paid Ads,2025-06-21,2026-09-26 11:00:00
+CUST000169,Customer 00169,customer00169@example.com,Bengaluru,Karnataka,Premium,Organic,2025-04-29,2026-09-26 11:00:00
+CUST002790,Customer 02790,customer02790@example.com,Hyderabad,Telangana,Dormant,Paid Ads,2026-04-26,2026-09-26 11:00:00
+CUST004998,Customer 04998,customer04998@example.com,Noida,Uttar Pradesh,Returning,Organic,2025-10-04,2026-09-26 11:00:00
+CUST004656,Customer 04656,customer04656@example.com,Delhi,Delhi,Dormant,Paid Ads,2025-02-04,2026-09-26 11:00:00
+CUST004228,Customer 04228,customer04228@example.com,Delhi,Delhi,Returning,Email,2025-04-11,2026-09-26 11:00:00
+CUST000042,Customer 00042,customer00042@example.com,Pune,Maharashtra,Returning,Email,2025-11-11,2026-09-26 11:00:00
+CUST004150,Customer 04150,customer04150@example.com,Jaipur,Rajasthan,Returning,Email,2026-04-22,2026-09-26 11:00:00
+CUST002224,Customer 02224,customer02224@example.com,Pune,Maharashtra,Returning,Social,2026-04-30,2026-09-26 11:00:00
+CUST001084,Customer 01084,customer01084@example.com,Noida,Uttar Pradesh,Premium,Email,2025-09-04,2026-09-26 11:00:00
+CUST002582,Customer 02582,customer02582@example.com,Kolkata,West Bengal,New,Affiliate,2025-11-13,2026-09-26 11:00:00
+CUST003217,Customer 03217,customer03217@example.com,Chennai,Tamil Nadu,Returning,Affiliate,2025-01-12,2026-09-26 11:00:00
+CUST002472,Customer 02472,customer02472@example.com,Mumbai,Maharashtra,Dormant,Email,2025-09-01,2026-09-26 11:00:00
+CUST003904,Customer 03904,customer03904@example.com,Kolkata,West Bengal,Premium,Paid Ads,2025-10-29,2026-09-26 11:00:00
+CUST003605,Customer 03605,customer03605@example.com,Delhi,Delhi,Dormant,Social,2026-06-09,2026-09-26 11:00:00
+CUST003994,Customer 03994,customer03994@example.com,Pune,Maharashtra,New,Paid Ads,2026-05-06,2026-09-26 11:00:00
+CUST001986,Customer 01986,customer01986@example.com,Delhi,Delhi,Premium,Direct,2025-07-01,2026-09-26 11:00:00
+CUST000172,Customer 00172,customer00172@example.com,Hyderabad,Telangana,Returning,Email,2025-02-24,2026-09-26 11:00:00
+CUST001722,Customer 01722,customer01722@example.com,Hyderabad,Telangana,Returning,Direct,2025-02-27,2026-09-26 11:00:00
+CUST001849,Customer 01849,customer01849@example.com,Kolkata,West Bengal,Premium,Affiliate,2026-05-26,2026-09-26 11:00:00
+CUST004689,Customer 04689,customer04689@example.com,Chennai,Tamil Nadu,New,Organic,2026-07-21,2026-09-26 11:00:00
+CUST004439,Customer 04439,customer04439@example.com,Mumbai,Maharashtra,New,Organic,2025-09-16,2026-09-26 11:00:00
+CUST000510,Customer 00510,customer00510@example.com,Pune,Maharashtra,Dormant,Direct,2026-04-12,2026-09-26 11:00:00
+CUST000841,Customer 00841,customer00841@example.com,Kolkata,West Bengal,Dormant,Email,2025-07-18,2026-09-26 11:00:00
+CUST003843,Customer 03843,customer03843@example.com,Delhi,Delhi,New,Social,2026-02-19,2026-09-26 11:00:00
+CUST004450,Customer 04450,customer04450@example.com,Bengaluru,Karnataka,Premium,Direct,2025-01-02,2026-09-26 11:00:00
+CUST001763,Customer 01763,customer01763@example.com,Hyderabad,Telangana,Returning,Email,2026-02-17,2026-09-26 11:00:00
+CUST002095,Customer 02095,customer02095@example.com,Noida,Uttar Pradesh,Dormant,Affiliate,2025-10-28,2026-09-26 11:00:00
+CUST002280,Customer 02280,customer02280@example.com,Ahmedabad,Gujarat,Dormant,Email,2026-03-09,2026-09-26 11:00:00
+CUST002425,Customer 02425,customer02425@example.com,Pune,Maharashtra,Dormant,Paid Ads,2025-04-07,2026-09-26 11:00:00
+CUST001328,Customer 01328,customer01328@example.com,Pune,Maharashtra,Returning,Direct,2026-04-02,2026-09-26 11:00:00
+CUST000197,Customer 00197,customer00197@example.com,Kolkata,West Bengal,New,Paid Ads,2026-01-30,2026-09-26 11:00:00
+CUST003216,Customer 03216,customer03216@example.com,Bengaluru,Karnataka,New,Email,2025-01-17,2026-09-26 11:00:00
+CUST004813,Customer 04813,customer04813@example.com,Noida,Uttar Pradesh,Premium,Social,2026-06-16,2026-09-26 11:00:00
+CUST001828,Customer 01828,customer01828@example.com,Chennai,Tamil Nadu,New,Social,2025-03-31,2026-09-26 11:00:00
+CUST000885,Customer 00885,customer00885@example.com,Delhi,Delhi,New,Social,2026-05-27,2026-09-26 11:00:00
+CUST004398,Customer 04398,customer04398@example.com,Jaipur,Rajasthan,Dormant,Social,2025-03-23,2026-09-26 11:00:00
+CUST003850,Customer 03850,customer03850@example.com,Hyderabad,Telangana,Premium,Affiliate,2026-07-07,2026-09-26 11:00:00
+CUST001216,Customer 01216,customer01216@example.com,Kolkata,West Bengal,Premium,Direct,2025-02-28,2026-09-26 11:00:00
+CUST002585,Customer 02585,customer02585@example.com,Mumbai,Maharashtra,New,Organic,2026-05-04,2026-09-26 11:00:00
+CUST003421,Customer 03421,customer03421@example.com,Noida,Uttar Pradesh,Premium,Direct,2025-11-30,2026-09-26 11:00:00
+CUST004325,Customer 04325,customer04325@example.com,Hyderabad,Telangana,Returning,Affiliate,2026-04-30,2026-09-26 11:00:00
+CUST002754,Customer 02754,customer02754@example.com,Jaipur,Rajasthan,Premium,Direct,2025-01-17,2026-09-26 11:00:00
+CUST002785,Customer 02785,customer02785@example.com,Chennai,Tamil Nadu,Dormant,Affiliate,2025-05-01,2026-09-26 11:00:00
+CUST002717,Customer 02717,customer02717@example.com,Chennai,Tamil Nadu,Returning,Email,2025-05-12,2026-09-26 11:00:00
+CUST003506,Customer 03506,customer03506@example.com,Jaipur,Rajasthan,Dormant,Email,2025-04-06,2026-09-26 11:00:00
+CUST003560,Customer 03560,customer03560@example.com,Noida,Uttar Pradesh,Premium,Affiliate,2025-09-08,2026-09-26 11:00:00
+CUST003490,Customer 03490,customer03490@example.com,Jaipur,Rajasthan,Returning,Organic,2026-01-14,2026-09-26 11:00:00
+CUST001710,Customer 01710,customer01710@example.com,Pune,Maharashtra,New,Affiliate,2026-05-22,2026-09-26 11:00:00
+CUST000088,Customer 00088,customer00088@example.com,Mumbai,Maharashtra,Returning,Paid Ads,2026-06-16,2026-09-26 11:00:00
+CUST002899,Customer 02899,customer02899@example.com,Bengaluru,Karnataka,Returning,Social,2025-12-18,2026-09-26 11:00:00
+CUST001410,Customer 01410,customer01410@example.com,Pune,Maharashtra,New,Organic,2025-08-25,2026-09-26 11:00:00
+CUST003941,Customer 03941,customer03941@example.com,Noida,Uttar Pradesh,Dormant,Organic,2026-08-15,2026-09-26 11:00:00
+CUST000352,Customer 00352,customer00352@example.com,Mumbai,Maharashtra,Dormant,Organic,2026-08-07,2026-09-26 11:00:00
+CUST003541,Customer 03541,customer03541@example.com,Bengaluru,Karnataka,Dormant,Paid Ads,2025-08-18,2026-09-26 11:00:00
+CUST001777,Customer 01777,customer01777@example.com,Hyderabad,Telangana,Premium,Social,2026-02-05,2026-09-26 11:00:00
+CUST002171,Customer 02171,customer02171@example.com,Noida,Uttar Pradesh,Returning,Paid Ads,2025-12-09,2026-09-26 11:00:00
+CUST003628,Customer 03628,customer03628@example.com,Delhi,Delhi,New,Organic,2026-05-10,2026-09-26 11:00:00
+CUST002050,Customer 02050,customer02050@example.com,Bengaluru,Karnataka,New,Direct,2026-03-11,2026-09-26 11:00:00
+CUST004531,Customer 04531,customer04531@example.com,Ahmedabad,Gujarat,Premium,Organic,2025-01-17,2026-09-26 11:00:00
+CUST001576,Customer 01576,customer01576@example.com,Mumbai,Maharashtra,Returning,Social,2025-06-15,2026-09-26 11:00:00
+CUST000067,Customer 00067,customer00067@example.com,Kolkata,West Bengal,Dormant,Direct,2025-10-21,2026-09-26 11:00:00
+CUST000095,Customer 00095,customer00095@example.com,Mumbai,Maharashtra,Dormant,Paid Ads,2025-01-20,2026-09-26 11:00:00
+CUST005001,Customer 05001,customer05001@example.com,Mumbai,Maharashtra,Returning,Social,2026-08-26,2026-09-25 10:00:00
+CUST005002,Customer 05002,customer05002@example.com,Jaipur,Rajasthan,Premium,Direct,2026-08-30,2026-09-25 10:00:00
+CUST005003,Customer 05003,customer05003@example.com,Jaipur,Rajasthan,Dormant,Paid Ads,2026-08-07,2026-09-25 10:00:00
+CUST005004,Customer 05004,customer05004@example.com,Delhi,Delhi,Dormant,Email,2026-08-16,2026-09-25 10:00:00
+CUST005005,Customer 05005,customer05005@example.com,Kolkata,West Bengal,New,Paid Ads,2026-08-21,2026-09-25 10:00:00
+CUST005006,Customer 05006,customer05006@example.com,Jaipur,Rajasthan,Dormant,Direct,2026-08-27,2026-09-25 10:00:00
+CUST005007,Customer 05007,customer05007@example.com,Delhi,Delhi,Returning,Organic,2026-08-20,2026-09-25 10:00:00
+CUST005008,Customer 05008,customer05008@example.com,Jaipur,Rajasthan,New,Direct,2026-08-29,2026-09-25 10:00:00
+CUST005009,Customer 05009,customer05009@example.com,Noida,Uttar Pradesh,Premium,Paid Ads,2026-08-11,2026-09-25 10:00:00
+CUST005010,Customer 05010,customer05010@example.com,Noida,Uttar Pradesh,Returning,Affiliate,2026-08-29,2026-09-25 10:00:00
+CUST005011,Customer 05011,customer05011@example.com,Jaipur,Rajasthan,Premium,Social,2026-08-21,2026-09-25 10:00:00
+CUST005012,Customer 05012,customer05012@example.com,Chennai,Tamil Nadu,New,Direct,2026-08-30,2026-09-25 10:00:00
+CUST005013,Customer 05013,customer05013@example.com,Jaipur,Rajasthan,Returning,Organic,2026-08-14,2026-09-25 10:00:00
+CUST005014,Customer 05014,customer05014@example.com,Jaipur,Rajasthan,Premium,Social,2026-08-19,2026-09-25 10:00:00
+CUST005015,Customer 05015,customer05015@example.com,Noida,Uttar Pradesh,Dormant,Email,2026-08-15,2026-09-25 10:00:00
+CUST005016,Customer 05016,customer05016@example.com,Pune,Maharashtra,Premium,Email,2026-08-23,2026-09-25 10:00:00
+CUST005017,Customer 05017,customer05017@example.com,Kolkata,West Bengal,Dormant,Affiliate,2026-08-28,2026-09-25 10:00:00
+CUST005018,Customer 05018,customer05018@example.com,Noida,Uttar Pradesh,Premium,Email,2026-08-29,2026-09-25 10:00:00
+CUST005019,Customer 05019,customer05019@example.com,Delhi,Delhi,Premium,Email,2026-08-04,2026-09-25 10:00:00
+CUST005020,Customer 05020,customer05020@example.com,Noida,Uttar Pradesh,Dormant,Paid Ads,2026-08-26,2026-09-25 10:00:00
+CUST005021,Customer 05021,customer05021@example.com,Pune,Maharashtra,New,Direct,2026-08-01,2026-09-25 10:00:00
+CUST005022,Customer 05022,customer05022@example.com,Kolkata,West Bengal,Dormant,Paid Ads,2026-08-11,2026-09-25 10:00:00
+CUST005023,Customer 05023,customer05023@example.com,Bengaluru,Karnataka,Dormant,Organic,2026-08-11,2026-09-25 10:00:00
+CUST005024,Customer 05024,customer05024@example.com,Hyderabad,Telangana,Dormant,Social,2026-08-29,2026-09-25 10:00:00
+CUST005025,Customer 05025,customer05025@example.com,Bengaluru,Karnataka,Returning,Social,2026-08-14,2026-09-25 10:00:00
+CUST005026,Customer 05026,customer05026@example.com,Chennai,Tamil Nadu,Premium,Email,2026-08-08,2026-09-25 10:00:00
+CUST005027,Customer 05027,customer05027@example.com,Jaipur,Rajasthan,Premium,Direct,2026-08-05,2026-09-25 10:00:00
+CUST005028,Customer 05028,customer05028@example.com,Mumbai,Maharashtra,Premium,Direct,2026-08-07,2026-09-25 10:00:00
+CUST005029,Customer 05029,customer05029@example.com,Kolkata,West Bengal,Returning,Social,2026-08-20,2026-09-25 10:00:00
+CUST005030,Customer 05030,customer05030@example.com,Chennai,Tamil Nadu,Dormant,Social,2026-08-21,2026-09-25 10:00:00
+CUST005031,Customer 05031,customer05031@example.com,Ahmedabad,Gujarat,New,Email,2026-08-03,2026-09-25 10:00:00
+CUST005032,Customer 05032,customer05032@example.com,Mumbai,Maharashtra,Premium,Organic,2026-08-23,2026-09-25 10:00:00
+CUST005033,Customer 05033,customer05033@example.com,Noida,Uttar Pradesh,Premium,Direct,2026-08-14,2026-09-25 10:00:00
+CUST005034,Customer 05034,customer05034@example.com,Kolkata,West Bengal,Dormant,Affiliate,2026-08-29,2026-09-25 10:00:00
+CUST005035,Customer 05035,customer05035@example.com,Ahmedabad,Gujarat,Returning,Email,2026-08-02,2026-09-25 10:00:00
+CUST005036,Customer 05036,customer05036@example.com,Bengaluru,Karnataka,New,Paid Ads,2026-08-30,2026-09-25 10:00:00
+CUST005037,Customer 05037,customer05037@example.com,Chennai,Tamil Nadu,Premium,Social,2026-08-29,2026-09-25 10:00:00
+CUST005038,Customer 05038,customer05038@example.com,Bengaluru,Karnataka,Returning,Affiliate,2026-08-22,2026-09-25 10:00:00
+CUST005039,Customer 05039,customer05039@example.com,Kolkata,West Bengal,New,Email,2026-08-19,2026-09-25 10:00:00
+CUST005040,Customer 05040,customer05040@example.com,Hyderabad,Telangana,Dormant,Organic,2026-08-09,2026-09-25 10:00:00
+CUST005041,Customer 05041,customer05041@example.com,Mumbai,Maharashtra,Premium,Email,2026-08-08,2026-09-25 10:00:00
+CUST005042,Customer 05042,customer05042@example.com,Delhi,Delhi,Dormant,Organic,2026-08-12,2026-09-25 10:00:00
+CUST005043,Customer 05043,customer05043@example.com,Ahmedabad,Gujarat,Dormant,Organic,2026-08-25,2026-09-25 10:00:00
+CUST005044,Customer 05044,customer05044@example.com,Chennai,Tamil Nadu,Premium,Email,2026-08-18,2026-09-25 10:00:00
+CUST005045,Customer 05045,customer05045@example.com,Mumbai,Maharashtra,Dormant,Direct,2026-08-01,2026-09-25 10:00:00
+CUST005046,Customer 05046,customer05046@example.com,Kolkata,West Bengal,Dormant,Email,2026-08-22,2026-09-25 10:00:00
+CUST005047,Customer 05047,customer05047@example.com,Chennai,Tamil Nadu,Returning,Direct,2026-08-18,2026-09-25 10:00:00
+CUST005048,Customer 05048,customer05048@example.com,Jaipur,Rajasthan,Dormant,Social,2026-08-29,2026-09-25 10:00:00
+CUST005049,Customer 05049,customer05049@example.com,Bengaluru,Karnataka,Dormant,Email,2026-08-16,2026-09-25 10:00:00
+CUST005050,Customer 05050,customer05050@example.com,Delhi,Delhi,Dormant,Paid Ads,2026-08-05,2026-09-25 10:00:00
+CUST005051,Customer 05051,missing@email,Noida,Uttar Pradesh,New,Direct,2026-08-16,2026-09-25 10:00:00
+CUST005052,Customer 05052,missing@email,Hyderabad,Telangana,Premium,Affiliate,2026-08-09,2026-09-25 10:00:00
+CUST005053,Customer 05053,customer05053@example.com,Bengaluru,Karnataka,Dormant,Organic,2026-08-16,2026-09-25 10:00:00
+CUST005054,Customer 05054,customer05054@example.com,Pune,Maharashtra,Premium,Affiliate,2026-08-06,2026-09-25 10:00:00
+CUST005055,Customer 05055,customer05055@example.com,Delhi,Delhi,Dormant,Social,2026-08-07,2026-09-25 10:00:00
+CUST005056,Customer 05056,customer05056@example.com,Noida,Uttar Pradesh,Premium,Paid Ads,2026-08-25,2026-09-25 10:00:00
+CUST005057,Customer 05057,customer05057@example.com,Ahmedabad,Gujarat,Dormant,Paid Ads,2026-08-21,2026-09-25 10:00:00
+CUST005058,Customer 05058,customer05058@example.com,Ahmedabad,Gujarat,Dormant,Affiliate,2026-08-07,2026-09-25 10:00:00
+CUST005059,Customer 05059,missing@email,Bengaluru,Karnataka,Dormant,Social,2026-08-30,2026-09-25 10:00:00
+CUST005060,Customer 05060,customer05060@example.com,Bengaluru,Karnataka,Dormant,Organic,2026-08-14,2026-09-25 10:00:00
+CUST005061,Customer 05061,customer05061@example.com,Kolkata,West Bengal,Returning,Direct,2026-08-11,2026-09-25 10:00:00
+CUST005062,Customer 05062,customer05062@example.com,Jaipur,Rajasthan,New,Email,2026-08-19,2026-09-25 10:00:00
+CUST005063,Customer 05063,customer05063@example.com,Pune,Maharashtra,Dormant,Paid Ads,2026-08-10,2026-09-25 10:00:00
+CUST005064,Customer 05064,customer05064@example.com,Jaipur,Rajasthan,Dormant,Direct,2026-08-19,2026-09-25 10:00:00
+CUST005065,Customer 05065,customer05065@example.com,Mumbai,Maharashtra,Premium,Email,2026-08-28,2026-09-25 10:00:00
+CUST005066,Customer 05066,customer05066@example.com,Bengaluru,Karnataka,New,Paid Ads,2026-08-03,2026-09-25 10:00:00
+CUST005067,Customer 05067,customer05067@example.com,Chennai,Tamil Nadu,Returning,Organic,2026-08-21,2026-09-25 10:00:00
+CUST005068,Customer 05068,customer05068@example.com,Noida,Uttar Pradesh,Premium,Email,2026-08-02,2026-09-25 10:00:00
+CUST005069,Customer 05069,customer05069@example.com,Kolkata,West Bengal,Premium,Social,2026-08-21,2026-09-25 10:00:00
+CUST005070,Customer 05070,customer05070@example.com,Pune,Maharashtra,Premium,Affiliate,2026-08-04,2026-09-25 10:00:00
+CUST005071,Customer 05071,customer05071@example.com,Kolkata,West Bengal,New,Affiliate,2026-08-03,2026-09-25 10:00:00
+CUST005072,Customer 05072,customer05072@example.com,Kolkata,West Bengal,Dormant,Social,2026-08-19,2026-09-25 10:00:00
+CUST005073,Customer 05073,customer05073@example.com,Noida,Uttar Pradesh,Dormant,Paid Ads,2026-08-16,2026-09-25 10:00:00
+CUST005074,Customer 05074,customer05074@example.com,Mumbai,Maharashtra,Returning,Email,2026-08-11,2026-09-25 10:00:00
+CUST005075,Customer 05075,customer05075@example.com,Noida,Uttar Pradesh,New,Paid Ads,2026-08-08,2026-09-25 10:00:00
+CUST005076,Customer 05076,customer05076@example.com,Chennai,Tamil Nadu,Premium,Email,2026-08-18,2026-09-25 10:00:00
+CUST005077,Customer 05077,missing@email,Chennai,Tamil Nadu,New,Affiliate,2026-08-07,2026-09-25 10:00:00
+CUST005078,Customer 05078,customer05078@example.com,Hyderabad,Telangana,Premium,Social,2026-08-10,2026-09-25 10:00:00
+CUST005079,Customer 05079,customer05079@example.com,Hyderabad,Telangana,New,Organic,2026-08-15,2026-09-25 10:00:00
+CUST005080,Customer 05080,customer05080@example.com,Mumbai,Maharashtra,Premium,Organic,2026-08-12,2026-09-25 10:00:00
+CUST005081,Customer 05081,customer05081@example.com,Hyderabad,Telangana,Premium,Social,2026-08-13,2026-09-25 10:00:00
+CUST005082,Customer 05082,customer05082@example.com,Mumbai,Maharashtra,Premium,Direct,2026-08-13,2026-09-25 10:00:00
+CUST005083,Customer 05083,customer05083@example.com,Jaipur,Rajasthan,New,Organic,2026-08-29,2026-09-25 10:00:00
+CUST005084,Customer 05084,customer05084@example.com,Mumbai,Maharashtra,Dormant,Email,2026-08-04,2026-09-25 10:00:00
+CUST005085,Customer 05085,customer05085@example.com,Kolkata,West Bengal,Premium,Direct,2026-08-03,2026-09-25 10:00:00
+CUST005086,Customer 05086,customer05086@example.com,Kolkata,West Bengal,Dormant,Paid Ads,2026-08-10,2026-09-25 10:00:00
+CUST005087,Customer 05087,customer05087@example.com,Pune,Maharashtra,Premium,Social,2026-08-04,2026-09-25 10:00:00
+CUST005088,Customer 05088,customer05088@example.com,Bengaluru,Karnataka,Returning,Paid Ads,2026-08-25,2026-09-25 10:00:00
+CUST005089,Customer 05089,customer05089@example.com,Kolkata,West Bengal,Returning,Social,2026-08-04,2026-09-25 10:00:00
+CUST005090,Customer 05090,customer05090@example.com,Mumbai,Maharashtra,Returning,Direct,2026-08-26,2026-09-25 10:00:00
+CUST005091,Customer 05091,customer05091@example.com,Kolkata,West Bengal,New,Email,2026-08-13,2026-09-25 10:00:00
+CUST005092,Customer 05092,customer05092@example.com,Chennai,Tamil Nadu,New,Organic,2026-08-23,2026-09-25 10:00:00
+CUST005093,Customer 05093,customer05093@example.com,Hyderabad,Telangana,Dormant,Social,2026-08-17,2026-09-25 10:00:00
+CUST005094,Customer 05094,customer05094@example.com,Kolkata,West Bengal,Dormant,Organic,2026-08-18,2026-09-25 10:00:00
+CUST005095,Customer 05095,customer05095@example.com,Mumbai,Maharashtra,New,Organic,2026-08-25,2026-09-25 10:00:00
+CUST005096,Customer 05096,customer05096@example.com,Kolkata,West Bengal,Dormant,Social,2026-08-24,2026-09-25 10:00:00
+CUST005097,Customer 05097,customer05097@example.com,Chennai,Tamil Nadu,Returning,Social,2026-08-13,2026-09-25 10:00:00
+CUST005098,Customer 05098,customer05098@example.com,Noida,Uttar Pradesh,Premium,Paid Ads,2026-08-10,2026-09-25 10:00:00
+CUST005099,Customer 05099,customer05099@example.com,Chennai,Tamil Nadu,Dormant,Email,2026-08-13,2026-09-25 10:00:00
+CUST005100,Customer 05100,customer05100@example.com,Kolkata,West Bengal,New,Organic,2026-08-28,2026-09-25 10:00:00
+CUST005101,Customer 05101,customer05101@example.com,Delhi,Delhi,New,Paid Ads,2026-08-04,2026-09-25 10:00:00
+CUST005102,Customer 05102,customer05102@example.com,Hyderabad,Telangana,Returning,Social,2026-08-11,2026-09-25 10:00:00
+CUST005103,Customer 05103,missing@email,Pune,Maharashtra,New,Affiliate,2026-08-16,2026-09-25 10:00:00
+CUST005104,Customer 05104,customer05104@example.com,Pune,Maharashtra,New,Affiliate,2026-08-17,2026-09-25 10:00:00
+CUST005105,Customer 05105,customer05105@example.com,Hyderabad,Telangana,New,Paid Ads,2026-08-28,2026-09-25 10:00:00
+CUST005106,Customer 05106,customer05106@example.com,Noida,Uttar Pradesh,Returning,Social,2026-08-14,2026-09-25 10:00:00
+CUST005107,Customer 05107,customer05107@example.com,Kolkata,West Bengal,Dormant,Affiliate,2026-08-03,2026-09-25 10:00:00
+CUST005108,Customer 05108,customer05108@example.com,Bengaluru,Karnataka,New,Organic,2026-08-07,2026-09-25 10:00:00
+CUST005109,Customer 05109,customer05109@example.com,Jaipur,Rajasthan,Returning,Paid Ads,2026-08-22,2026-09-25 10:00:00
+CUST005110,Customer 05110,customer05110@example.com,Noida,Uttar Pradesh,Returning,Paid Ads,2026-08-03,2026-09-25 10:00:00
+CUST005111,Customer 05111,customer05111@example.com,Delhi,Delhi,New,Social,2026-08-09,2026-09-25 10:00:00
+CUST005112,Customer 05112,customer05112@example.com,Bengaluru,Karnataka,Dormant,Organic,2026-08-28,2026-09-25 10:00:00
+CUST005113,Customer 05113,customer05113@example.com,Kolkata,West Bengal,New,Direct,2026-08-11,2026-09-25 10:00:00
+CUST005114,Customer 05114,customer05114@example.com,Mumbai,Maharashtra,New,Organic,2026-08-13,2026-09-25 10:00:00
+CUST005115,Customer 05115,customer05115@example.com,Bengaluru,Karnataka,Dormant,Social,2026-08-13,2026-09-25 10:00:00
+CUST005116,Customer 05116,customer05116@example.com,Hyderabad,Telangana,Premium,Social,2026-08-10,2026-09-25 10:00:00
+CUST005117,Customer 05117,customer05117@example.com,Kolkata,West Bengal,Dormant,Social,2026-08-18,2026-09-25 10:00:00
+CUST005118,Customer 05118,customer05118@example.com,Kolkata,West Bengal,New,Organic,2026-08-18,2026-09-25 10:00:00
+CUST005119,Customer 05119,customer05119@example.com,Noida,Uttar Pradesh,Returning,Email,2026-08-03,2026-09-25 10:00:00
+CUST005120,Customer 05120,customer05120@example.com,Chennai,Tamil Nadu,Premium,Direct,2026-08-14,2026-09-25 10:00:00
+CUST005121,Customer 05121,customer05121@example.com,Bengaluru,Karnataka,New,Direct,2026-08-21,2026-09-25 10:00:00
+CUST005122,Customer 05122,customer05122@example.com,Hyderabad,Telangana,Premium,Email,2026-08-23,2026-09-25 10:00:00
+CUST005123,Customer 05123,missing@email,Chennai,Tamil Nadu,Premium,Direct,2026-08-30,2026-09-25 10:00:00
+CUST005124,Customer 05124,customer05124@example.com,Noida,Uttar Pradesh,New,Social,2026-08-01,2026-09-25 10:00:00
+CUST005125,Customer 05125,customer05125@example.com,Bengaluru,Karnataka,Returning,Affiliate,2026-08-24,2026-09-25 10:00:00
+CUST005126,Customer 05126,customer05126@example.com,Bengaluru,Karnataka,New,Organic,2026-08-19,2026-09-25 10:00:00
+CUST005127,Customer 05127,customer05127@example.com,Hyderabad,Telangana,Premium,Affiliate,2026-08-03,2026-09-25 10:00:00
+CUST005128,Customer 05128,customer05128@example.com,Ahmedabad,Gujarat,Returning,Direct,2026-08-24,2026-09-25 10:00:00
+CUST005129,Customer 05129,customer05129@example.com,Mumbai,Maharashtra,Returning,Paid Ads,2026-08-21,2026-09-25 10:00:00
+CUST005130,Customer 05130,customer05130@example.com,Delhi,Delhi,Returning,Email,2026-08-16,2026-09-25 10:00:00
+CUST005131,Customer 05131,customer05131@example.com,Jaipur,Rajasthan,Premium,Social,2026-08-28,2026-09-25 10:00:00
+CUST005132,Customer 05132,customer05132@example.com,Ahmedabad,Gujarat,Dormant,Email,2026-08-02,2026-09-25 10:00:00
+CUST005133,Customer 05133,missing@email,Jaipur,Rajasthan,Returning,Organic,2026-08-24,2026-09-25 10:00:00
+CUST005134,Customer 05134,customer05134@example.com,Hyderabad,Telangana,Premium,Social,2026-08-27,2026-09-25 10:00:00
+CUST005135,Customer 05135,customer05135@example.com,Pune,Maharashtra,Dormant,Organic,2026-08-12,2026-09-25 10:00:00
+CUST005136,Customer 05136,customer05136@example.com,Kolkata,West Bengal,New,Affiliate,2026-08-13,2026-09-25 10:00:00
+CUST005137,Customer 05137,customer05137@example.com,Chennai,Tamil Nadu,New,Organic,2026-08-16,2026-09-25 10:00:00
+CUST005138,Customer 05138,customer05138@example.com,Hyderabad,Telangana,Dormant,Email,2026-08-16,2026-09-25 10:00:00
+CUST005139,Customer 05139,customer05139@example.com,Delhi,Delhi,Premium,Social,2026-08-16,2026-09-25 10:00:00
+CUST005140,Customer 05140,missing@email,Mumbai,Maharashtra,Premium,Paid Ads,2026-08-04,2026-09-25 10:00:00
+CUST005141,Customer 05141,customer05141@example.com,Noida,Uttar Pradesh,Dormant,Paid Ads,2026-08-23,2026-09-25 10:00:00
+CUST005142,Customer 05142,customer05142@example.com,Chennai,Tamil Nadu,New,Paid Ads,2026-08-26,2026-09-25 10:00:00
+CUST005143,Customer 05143,customer05143@example.com,Ahmedabad,Gujarat,Premium,Organic,2026-08-16,2026-09-25 10:00:00
+CUST005144,Customer 05144,customer05144@example.com,Bengaluru,Karnataka,Returning,Direct,2026-08-19,2026-09-25 10:00:00
+CUST005145,Customer 05145,customer05145@example.com,Chennai,Tamil Nadu,Returning,Social,2026-08-11,2026-09-25 10:00:00
+CUST005146,Customer 05146,customer05146@example.com,Jaipur,Rajasthan,Returning,Paid Ads,2026-08-04,2026-09-25 10:00:00
+CUST005147,Customer 05147,customer05147@example.com,Jaipur,Rajasthan,Premium,Organic,2026-08-11,2026-09-25 10:00:00
+CUST005148,Customer 05148,customer05148@example.com,Chennai,Tamil Nadu,Returning,Social,2026-08-28,2026-09-25 10:00:00
+CUST005149,Customer 05149,customer05149@example.com,Jaipur,Rajasthan,New,Paid Ads,2026-08-26,2026-09-25 10:00:00
+CUST005150,Customer 05150,customer05150@example.com,Bengaluru,Karnataka,Premium,Paid Ads,2026-08-14,2026-09-25 10:00:00
+CUST005151,Customer 05151,customer05151@example.com,Delhi,Delhi,Returning,Email,2026-08-20,2026-09-25 10:00:00
+CUST005152,Customer 05152,customer05152@example.com,Hyderabad,Telangana,New,Social,2026-08-03,2026-09-25 10:00:00
+CUST005153,Customer 05153,customer05153@example.com,Delhi,Delhi,Premium,Social,2026-08-16,2026-09-25 10:00:00
+CUST005154,Customer 05154,customer05154@example.com,Mumbai,Maharashtra,Returning,Organic,2026-08-04,2026-09-25 10:00:00
+CUST005155,Customer 05155,customer05155@example.com,Ahmedabad,Gujarat,New,Direct,2026-08-15,2026-09-25 10:00:00
+CUST005156,Customer 05156,customer05156@example.com,Mumbai,Maharashtra,New,Direct,2026-08-04,2026-09-25 10:00:00
+CUST005157,Customer 05157,customer05157@example.com,Kolkata,West Bengal,Premium,Social,2026-08-20,2026-09-25 10:00:00
+CUST005158,Customer 05158,customer05158@example.com,Ahmedabad,Gujarat,New,Direct,2026-08-03,2026-09-25 10:00:00
+CUST005159,Customer 05159,customer05159@example.com,Jaipur,Rajasthan,Dormant,Paid Ads,2026-08-10,2026-09-25 10:00:00
+CUST005160,Customer 05160,customer05160@example.com,Delhi,Delhi,New,Organic,2026-08-17,2026-09-25 10:00:00
+CUST005161,Customer 05161,customer05161@example.com,Delhi,Delhi,New,Social,2026-08-25,2026-09-25 10:00:00
+CUST005162,Customer 05162,customer05162@example.com,Kolkata,West Bengal,Premium,Social,2026-08-02,2026-09-25 10:00:00
+CUST005163,Customer 05163,customer05163@example.com,Hyderabad,Telangana,Premium,Organic,2026-08-08,2026-09-25 10:00:00
+CUST005164,Customer 05164,customer05164@example.com,Delhi,Delhi,New,Social,2026-08-21,2026-09-25 10:00:00
+CUST005165,Customer 05165,customer05165@example.com,Kolkata,West Bengal,New,Email,2026-08-30,2026-09-25 10:00:00
+CUST005166,Customer 05166,customer05166@example.com,Kolkata,West Bengal,Dormant,Organic,2026-08-10,2026-09-25 10:00:00
+CUST005167,Customer 05167,customer05167@example.com,Kolkata,West Bengal,New,Email,2026-08-05,2026-09-25 10:00:00
+CUST005168,Customer 05168,customer05168@example.com,Delhi,Delhi,Returning,Organic,2026-08-12,2026-09-25 10:00:00
+CUST005169,Customer 05169,customer05169@example.com,Jaipur,Rajasthan,Premium,Affiliate,2026-08-29,2026-09-25 10:00:00
+CUST005170,Customer 05170,customer05170@example.com,Chennai,Tamil Nadu,Returning,Email,2026-08-04,2026-09-25 10:00:00
+CUST005171,Customer 05171,customer05171@example.com,Noida,Uttar Pradesh,Dormant,Direct,2026-08-09,2026-09-25 10:00:00
+CUST005172,Customer 05172,customer05172@example.com,Pune,Maharashtra,Returning,Paid Ads,2026-08-19,2026-09-25 10:00:00
+CUST005173,Customer 05173,customer05173@example.com,Pune,Maharashtra,Premium,Direct,2026-08-15,2026-09-25 10:00:00
+CUST005174,Customer 05174,customer05174@example.com,Jaipur,Rajasthan,Dormant,Affiliate,2026-08-28,2026-09-25 10:00:00
+CUST005175,Customer 05175,customer05175@example.com,Hyderabad,Telangana,New,Direct,2026-08-18,2026-09-25 10:00:00
+CUST005176,Customer 05176,customer05176@example.com,Mumbai,Maharashtra,Dormant,Direct,2026-08-04,2026-09-25 10:00:00
+CUST005177,Customer 05177,customer05177@example.com,Chennai,Tamil Nadu,Dormant,Direct,2026-08-19,2026-09-25 10:00:00
+CUST005178,Customer 05178,customer05178@example.com,Jaipur,Rajasthan,New,Paid Ads,2026-08-10,2026-09-25 10:00:00
+CUST005179,Customer 05179,customer05179@example.com,Ahmedabad,Gujarat,Premium,Affiliate,2026-08-02,2026-09-25 10:00:00
+CUST005180,Customer 05180,customer05180@example.com,Jaipur,Rajasthan,Premium,Affiliate,2026-08-29,2026-09-25 10:00:00
+CUST005181,Customer 05181,missing@email,Pune,Maharashtra,Dormant,Direct,2026-08-14,2026-09-25 10:00:00
+CUST005182,Customer 05182,customer05182@example.com,Noida,Uttar Pradesh,Premium,Paid Ads,2026-08-14,2026-09-25 10:00:00
+CUST005183,Customer 05183,customer05183@example.com,Hyderabad,Telangana,Dormant,Paid Ads,2026-08-08,2026-09-25 10:00:00
+CUST005184,Customer 05184,customer05184@example.com,Chennai,Tamil Nadu,Dormant,Organic,2026-08-21,2026-09-25 10:00:00
+CUST005185,Customer 05185,customer05185@example.com,Bengaluru,Karnataka,New,Paid Ads,2026-08-25,2026-09-25 10:00:00
+CUST005186,Customer 05186,customer05186@example.com,Noida,Uttar Pradesh,Dormant,Direct,2026-08-22,2026-09-25 10:00:00
+CUST005187,Customer 05187,missing@email,Kolkata,West Bengal,Premium,Affiliate,2026-08-27,2026-09-25 10:00:00
+CUST005188,Customer 05188,customer05188@example.com,Hyderabad,Telangana,Returning,Affiliate,2026-08-12,2026-09-25 10:00:00
+CUST005189,Customer 05189,customer05189@example.com,Delhi,Delhi,Premium,Organic,2026-08-22,2026-09-25 10:00:00
+CUST005190,Customer 05190,customer05190@example.com,Pune,Maharashtra,Returning,Email,2026-08-14,2026-09-25 10:00:00
+CUST005191,Customer 05191,customer05191@example.com,Delhi,Delhi,Dormant,Email,2026-08-30,2026-09-25 10:00:00
+CUST005192,Customer 05192,missing@email,Delhi,Delhi,Dormant,Paid Ads,2026-08-23,2026-09-25 10:00:00
+CUST005193,Customer 05193,customer05193@example.com,Noida,Uttar Pradesh,New,Paid Ads,2026-08-22,2026-09-25 10:00:00
+CUST005194,Customer 05194,customer05194@example.com,Bengaluru,Karnataka,Returning,Social,2026-08-06,2026-09-25 10:00:00
+CUST005195,Customer 05195,customer05195@example.com,Hyderabad,Telangana,Premium,Paid Ads,2026-08-24,2026-09-25 10:00:00
+CUST005196,Customer 05196,customer05196@example.com,Mumbai,Maharashtra,New,Affiliate,2026-08-25,2026-09-25 10:00:00
+CUST005197,Customer 05197,customer05197@example.com,Jaipur,Rajasthan,Premium,Email,2026-08-07,2026-09-25 10:00:00
+CUST005198,Customer 05198,customer05198@example.com,Hyderabad,Telangana,Dormant,Social,2026-08-25,2026-09-25 10:00:00
+CUST005199,Customer 05199,customer05199@example.com,Delhi,Delhi,Dormant,Social,2026-08-14,2026-09-25 10:00:00
+CUST005200,Customer 05200,customer05200@example.com,Kolkata,West Bengal,New,Social,2026-08-04,2026-09-25 10:00:00
+CUST005201,Customer 05201,customer05201@example.com,Mumbai,Maharashtra,Premium,Organic,2026-08-21,2026-09-25 10:00:00
+CUST005202,Customer 05202,customer05202@example.com,Pune,Maharashtra,Returning,Affiliate,2026-08-17,2026-09-25 10:00:00
+CUST005203,Customer 05203,customer05203@example.com,Hyderabad,Telangana,Premium,Email,2026-08-09,2026-09-25 10:00:00
+CUST005204,Customer 05204,customer05204@example.com,Bengaluru,Karnataka,Dormant,Organic,2026-08-09,2026-09-25 10:00:00
+CUST005205,Customer 05205,customer05205@example.com,Delhi,Delhi,Dormant,Paid Ads,2026-08-11,2026-09-25 10:00:00
+CUST005206,Customer 05206,customer05206@example.com,Mumbai,Maharashtra,Dormant,Email,2026-08-22,2026-09-25 10:00:00
+CUST005207,Customer 05207,customer05207@example.com,Delhi,Delhi,Dormant,Affiliate,2026-08-21,2026-09-25 10:00:00
+CUST005208,Customer 05208,customer05208@example.com,Delhi,Delhi,New,Email,2026-08-22,2026-09-25 10:00:00
+CUST005209,Customer 05209,customer05209@example.com,Jaipur,Rajasthan,New,Affiliate,2026-08-26,2026-09-25 10:00:00
+CUST005210,Customer 05210,customer05210@example.com,Delhi,Delhi,Premium,Affiliate,2026-08-14,2026-09-25 10:00:00
+CUST005211,Customer 05211,customer05211@example.com,Hyderabad,Telangana,Returning,Paid Ads,2026-08-01,2026-09-25 10:00:00
+CUST005212,Customer 05212,customer05212@example.com,Ahmedabad,Gujarat,Dormant,Direct,2026-08-23,2026-09-25 10:00:00
+CUST005213,Customer 05213,customer05213@example.com,Noida,Uttar Pradesh,Dormant,Social,2026-08-25,2026-09-25 10:00:00
+CUST005214,Customer 05214,customer05214@example.com,Hyderabad,Telangana,Premium,Paid Ads,2026-08-13,2026-09-25 10:00:00
+CUST005215,Customer 05215,customer05215@example.com,Jaipur,Rajasthan,New,Paid Ads,2026-08-01,2026-09-25 10:00:00
+CUST005216,Customer 05216,missing@email,Pune,Maharashtra,Dormant,Organic,2026-08-29,2026-09-25 10:00:00
+CUST005217,Customer 05217,customer05217@example.com,Pune,Maharashtra,Dormant,Email,2026-08-12,2026-09-25 10:00:00
+CUST005218,Customer 05218,customer05218@example.com,Delhi,Delhi,New,Social,2026-08-27,2026-09-25 10:00:00
+CUST005219,Customer 05219,customer05219@example.com,Hyderabad,Telangana,New,Paid Ads,2026-08-21,2026-09-25 10:00:00
+CUST005220,Customer 05220,customer05220@example.com,Chennai,Tamil Nadu,Returning,Affiliate,2026-08-26,2026-09-25 10:00:00
+CUST005221,Customer 05221,customer05221@example.com,Mumbai,Maharashtra,New,Organic,2026-08-30,2026-09-25 10:00:00
+CUST005222,Customer 05222,customer05222@example.com,Pune,Maharashtra,Premium,Affiliate,2026-08-01,2026-09-25 10:00:00
+CUST005223,Customer 05223,customer05223@example.com,Jaipur,Rajasthan,Premium,Affiliate,2026-08-18,2026-09-25 10:00:00
+CUST005224,Customer 05224,customer05224@example.com,Hyderabad,Telangana,Premium,Email,2026-08-11,2026-09-25 10:00:00
+CUST005225,Customer 05225,customer05225@example.com,Noida,Uttar Pradesh,Premium,Social,2026-08-26,2026-09-25 10:00:00
+CUST005226,Customer 05226,customer05226@example.com,Kolkata,West Bengal,Dormant,Email,2026-08-23,2026-09-25 10:00:00
+CUST005227,Customer 05227,customer05227@example.com,Ahmedabad,Gujarat,New,Affiliate,2026-08-28,2026-09-25 10:00:00
+CUST005228,Customer 05228,customer05228@example.com,Mumbai,Maharashtra,Returning,Email,2026-08-03,2026-09-25 10:00:00
+CUST005229,Customer 05229,customer05229@example.com,Chennai,Tamil Nadu,Dormant,Email,2026-08-16,2026-09-25 10:00:00
+CUST005230,Customer 05230,customer05230@example.com,Mumbai,Maharashtra,Dormant,Email,2026-08-04,2026-09-25 10:00:00
+CUST005231,Customer 05231,customer05231@example.com,Hyderabad,Telangana,Returning,Direct,2026-08-02,2026-09-25 10:00:00
+CUST005232,Customer 05232,customer05232@example.com,Delhi,Delhi,New,Email,2026-08-30,2026-09-25 10:00:00
+CUST005233,Customer 05233,customer05233@example.com,Bengaluru,Karnataka,Dormant,Organic,2026-08-15,2026-09-25 10:00:00
+CUST005234,Customer 05234,customer05234@example.com,Mumbai,Maharashtra,Returning,Direct,2026-08-23,2026-09-25 10:00:00
+CUST005235,Customer 05235,customer05235@example.com,Bengaluru,Karnataka,Dormant,Direct,2026-08-22,2026-09-25 10:00:00
+CUST005236,Customer 05236,customer05236@example.com,Bengaluru,Karnataka,Premium,Social,2026-08-28,2026-09-25 10:00:00
+CUST005237,Customer 05237,customer05237@example.com,Kolkata,West Bengal,New,Organic,2026-08-07,2026-09-25 10:00:00
+CUST005238,Customer 05238,customer05238@example.com,Bengaluru,Karnataka,Dormant,Email,2026-08-23,2026-09-25 10:00:00
+CUST005239,Customer 05239,customer05239@example.com,Chennai,Tamil Nadu,Dormant,Email,2026-08-13,2026-09-25 10:00:00
+CUST005240,Customer 05240,customer05240@example.com,Delhi,Delhi,Returning,Organic,2026-08-13,2026-09-25 10:00:00
+CUST005241,Customer 05241,customer05241@example.com,Pune,Maharashtra,Returning,Direct,2026-08-13,2026-09-25 10:00:00
+CUST005242,Customer 05242,customer05242@example.com,Ahmedabad,Gujarat,Returning,Paid Ads,2026-08-11,2026-09-25 10:00:00
+CUST005243,Customer 05243,customer05243@example.com,Ahmedabad,Gujarat,Returning,Social,2026-08-25,2026-09-25 10:00:00
+CUST005244,Customer 05244,customer05244@example.com,Jaipur,Rajasthan,Dormant,Organic,2026-08-23,2026-09-25 10:00:00
+CUST005245,Customer 05245,customer05245@example.com,Hyderabad,Telangana,Premium,Email,2026-08-12,2026-09-25 10:00:00
+CUST005246,Customer 05246,customer05246@example.com,Delhi,Delhi,Premium,Affiliate,2026-08-14,2026-09-25 10:00:00
+CUST005247,Customer 05247,customer05247@example.com,Kolkata,West Bengal,Dormant,Paid Ads,2026-08-09,2026-09-25 10:00:00
+CUST005248,Customer 05248,customer05248@example.com,Jaipur,Rajasthan,Dormant,Direct,2026-08-10,2026-09-25 10:00:00
+CUST005249,Customer 05249,customer05249@example.com,Kolkata,West Bengal,Premium,Direct,2026-08-04,2026-09-25 10:00:00
+CUST005250,Customer 05250,customer05250@example.com,Ahmedabad,Gujarat,Premium,Social,2026-08-08,2026-09-25 10:00:00
+CUST005251,Customer 05251,customer05251@example.com,Kolkata,West Bengal,Dormant,Social,2026-08-07,2026-09-25 10:00:00
+CUST005252,Customer 05252,customer05252@example.com,Delhi,Delhi,Dormant,Affiliate,2026-08-23,2026-09-25 10:00:00
+CUST005253,Customer 05253,customer05253@example.com,Ahmedabad,Gujarat,Dormant,Organic,2026-08-17,2026-09-25 10:00:00
+CUST005254,Customer 05254,customer05254@example.com,Mumbai,Maharashtra,New,Organic,2026-08-07,2026-09-25 10:00:00
+CUST005255,Customer 05255,customer05255@example.com,Kolkata,West Bengal,Premium,Organic,2026-08-24,2026-09-25 10:00:00
+CUST005256,Customer 05256,customer05256@example.com,Kolkata,West Bengal,Returning,Direct,2026-08-22,2026-09-25 10:00:00
+CUST005257,Customer 05257,customer05257@example.com,Bengaluru,Karnataka,Dormant,Social,2026-08-28,2026-09-25 10:00:00
+CUST005258,Customer 05258,customer05258@example.com,Mumbai,Maharashtra,Premium,Email,2026-08-13,2026-09-25 10:00:00
+CUST005259,Customer 05259,customer05259@example.com,Delhi,Delhi,Returning,Social,2026-08-11,2026-09-25 10:00:00
+CUST005260,Customer 05260,customer05260@example.com,Chennai,Tamil Nadu,Premium,Email,2026-08-12,2026-09-25 10:00:00
+CUST005261,Customer 05261,customer05261@example.com,Chennai,Tamil Nadu,Dormant,Affiliate,2026-08-12,2026-09-25 10:00:00
+CUST005262,Customer 05262,customer05262@example.com,Pune,Maharashtra,Dormant,Email,2026-08-01,2026-09-25 10:00:00
+CUST005263,Customer 05263,customer05263@example.com,Ahmedabad,Gujarat,Premium,Email,2026-08-26,2026-09-25 10:00:00
+CUST005264,Customer 05264,customer05264@example.com,Hyderabad,Telangana,Dormant,Paid Ads,2026-08-10,2026-09-25 10:00:00
+CUST005265,Customer 05265,customer05265@example.com,Jaipur,Rajasthan,New,Affiliate,2026-08-10,2026-09-25 10:00:00
+CUST005266,Customer 05266,customer05266@example.com,Chennai,Tamil Nadu,Returning,Direct,2026-08-20,2026-09-25 10:00:00
+CUST005267,Customer 05267,customer05267@example.com,Kolkata,West Bengal,Dormant,Affiliate,2026-08-08,2026-09-25 10:00:00
+CUST005268,Customer 05268,customer05268@example.com,Bengaluru,Karnataka,Returning,Paid Ads,2026-08-28,2026-09-25 10:00:00
+CUST005269,Customer 05269,customer05269@example.com,Bengaluru,Karnataka,Premium,Email,2026-08-19,2026-09-25 10:00:00
+CUST005270,Customer 05270,customer05270@example.com,Mumbai,Maharashtra,Returning,Affiliate,2026-08-13,2026-09-25 10:00:00
+CUST005271,Customer 05271,customer05271@example.com,Delhi,Delhi,New,Social,2026-08-14,2026-09-25 10:00:00
+CUST005272,Customer 05272,customer05272@example.com,Chennai,Tamil Nadu,Returning,Paid Ads,2026-08-23,2026-09-25 10:00:00
+CUST005273,Customer 05273,customer05273@example.com,Delhi,Delhi,Premium,Social,2026-08-05,2026-09-25 10:00:00
+CUST005274,Customer 05274,customer05274@example.com,Bengaluru,Karnataka,New,Social,2026-08-15,2026-09-25 10:00:00
+CUST005275,Customer 05275,customer05275@example.com,Mumbai,Maharashtra,Returning,Direct,2026-08-20,2026-09-25 10:00:00
+CUST005276,Customer 05276,customer05276@example.com,Kolkata,West Bengal,New,Direct,2026-08-04,2026-09-25 10:00:00
+CUST005277,Customer 05277,customer05277@example.com,Kolkata,West Bengal,New,Email,2026-08-21,2026-09-25 10:00:00
+CUST005278,Customer 05278,customer05278@example.com,Kolkata,West Bengal,Returning,Direct,2026-08-21,2026-09-25 10:00:00
+CUST005279,Customer 05279,customer05279@example.com,Hyderabad,Telangana,Premium,Email,2026-08-17,2026-09-25 10:00:00
+CUST005280,Customer 05280,customer05280@example.com,Hyderabad,Telangana,Returning,Organic,2026-08-19,2026-09-25 10:00:00
+CUST005281,Customer 05281,customer05281@example.com,Ahmedabad,Gujarat,Returning,Organic,2026-08-15,2026-09-25 10:00:00
+CUST005282,Customer 05282,missing@email,Mumbai,Maharashtra,Returning,Paid Ads,2026-08-09,2026-09-25 10:00:00
+CUST005283,Customer 05283,customer05283@example.com,Pune,Maharashtra,Returning,Social,2026-08-17,2026-09-25 10:00:00
+CUST005284,Customer 05284,customer05284@example.com,Noida,Uttar Pradesh,Dormant,Social,2026-08-15,2026-09-25 10:00:00
+CUST005285,Customer 05285,customer05285@example.com,Noida,Uttar Pradesh,Dormant,Email,2026-08-18,2026-09-25 10:00:00
+CUST005286,Customer 05286,customer05286@example.com,Noida,Uttar Pradesh,Dormant,Organic,2026-08-29,2026-09-25 10:00:00
+CUST005287,Customer 05287,customer05287@example.com,Noida,Uttar Pradesh,New,Social,2026-08-25,2026-09-25 10:00:00
+CUST005288,Customer 05288,customer05288@example.com,Pune,Maharashtra,Dormant,Organic,2026-08-21,2026-09-25 10:00:00
+CUST005289,Customer 05289,customer05289@example.com,Noida,Uttar Pradesh,Returning,Email,2026-08-14,2026-09-25 10:00:00
+CUST005290,Customer 05290,customer05290@example.com,Bengaluru,Karnataka,Returning,Affiliate,2026-08-01,2026-09-25 10:00:00
+CUST005291,Customer 05291,customer05291@example.com,Kolkata,West Bengal,Premium,Organic,2026-08-30,2026-09-25 10:00:00
+CUST005292,Customer 05292,customer05292@example.com,Chennai,Tamil Nadu,Dormant,Paid Ads,2026-08-07,2026-09-25 10:00:00
+CUST005293,Customer 05293,customer05293@example.com,Jaipur,Rajasthan,Premium,Affiliate,2026-08-18,2026-09-25 10:00:00
+CUST005294,Customer 05294,customer05294@example.com,Bengaluru,Karnataka,Dormant,Social,2026-08-04,2026-09-25 10:00:00
+CUST005295,Customer 05295,customer05295@example.com,Ahmedabad,Gujarat,Returning,Social,2026-08-21,2026-09-25 10:00:00
+CUST005296,Customer 05296,customer05296@example.com,Noida,Uttar Pradesh,Premium,Direct,2026-08-28,2026-09-25 10:00:00
+CUST005297,Customer 05297,customer05297@example.com,Kolkata,West Bengal,New,Direct,2026-08-07,2026-09-25 10:00:00
+CUST005298,Customer 05298,customer05298@example.com,Mumbai,Maharashtra,Premium,Organic,2026-08-26,2026-09-25 10:00:00
+CUST005299,Customer 05299,customer05299@example.com,Mumbai,Maharashtra,Dormant,Paid Ads,2026-08-30,2026-09-25 10:00:00
+CUST005300,Customer 05300,customer05300@example.com,Hyderabad,Telangana,New,Organic,2026-08-27,2026-09-25 10:00:00
+CUST005301,Customer 05301,customer05301@example.com,Pune,Maharashtra,Returning,Direct,2026-08-18,2026-09-25 10:00:00
+CUST005302,Customer 05302,customer05302@example.com,Delhi,Delhi,New,Email,2026-08-19,2026-09-25 10:00:00
+CUST005303,Customer 05303,customer05303@example.com,Hyderabad,Telangana,New,Direct,2026-08-24,2026-09-25 10:00:00
+CUST005304,Customer 05304,customer05304@example.com,Hyderabad,Telangana,New,Organic,2026-08-16,2026-09-25 10:00:00
+CUST005305,Customer 05305,customer05305@example.com,Kolkata,West Bengal,Dormant,Organic,2026-08-19,2026-09-25 10:00:00
+CUST005306,Customer 05306,customer05306@example.com,Ahmedabad,Gujarat,Premium,Social,2026-08-21,2026-09-25 10:00:00
+CUST005307,Customer 05307,customer05307@example.com,Jaipur,Rajasthan,Premium,Email,2026-08-06,2026-09-25 10:00:00
+CUST005308,Customer 05308,customer05308@example.com,Noida,Uttar Pradesh,Returning,Email,2026-08-11,2026-09-25 10:00:00
+CUST005309,Customer 05309,customer05309@example.com,Chennai,Tamil Nadu,Dormant,Email,2026-08-19,2026-09-25 10:00:00
+CUST005310,Customer 05310,customer05310@example.com,Jaipur,Rajasthan,Premium,Direct,2026-08-09,2026-09-25 10:00:00
+CUST005311,Customer 05311,customer05311@example.com,Pune,Maharashtra,New,Direct,2026-08-27,2026-09-25 10:00:00
+CUST005312,Customer 05312,customer05312@example.com,Jaipur,Rajasthan,Premium,Direct,2026-08-16,2026-09-25 10:00:00
+CUST005313,Customer 05313,customer05313@example.com,Mumbai,Maharashtra,Returning,Affiliate,2026-08-02,2026-09-25 10:00:00
+CUST005314,Customer 05314,customer05314@example.com,Jaipur,Rajasthan,New,Direct,2026-08-22,2026-09-25 10:00:00
+CUST005315,Customer 05315,customer05315@example.com,Noida,Uttar Pradesh,Premium,Direct,2026-08-26,2026-09-25 10:00:00
+CUST005316,Customer 05316,customer05316@example.com,Bengaluru,Karnataka,Dormant,Affiliate,2026-08-09,2026-09-25 10:00:00
+CUST005317,Customer 05317,customer05317@example.com,Mumbai,Maharashtra,Premium,Email,2026-08-29,2026-09-25 10:00:00
+CUST005318,Customer 05318,customer05318@example.com,Jaipur,Rajasthan,Premium,Direct,2026-08-08,2026-09-25 10:00:00
+CUST005319,Customer 05319,customer05319@example.com,Jaipur,Rajasthan,New,Affiliate,2026-08-03,2026-09-25 10:00:00
+CUST005320,Customer 05320,customer05320@example.com,Jaipur,Rajasthan,New,Paid Ads,2026-08-11,2026-09-25 10:00:00
+CUST005321,Customer 05321,customer05321@example.com,Bengaluru,Karnataka,New,Affiliate,2026-08-18,2026-09-25 10:00:00
+CUST005322,Customer 05322,customer05322@example.com,Noida,Uttar Pradesh,Premium,Social,2026-08-14,2026-09-25 10:00:00
+CUST005323,Customer 05323,customer05323@example.com,Delhi,Delhi,Dormant,Direct,2026-08-04,2026-09-25 10:00:00
+CUST005324,Customer 05324,missing@email,Ahmedabad,Gujarat,Dormant,Social,2026-08-08,2026-09-25 10:00:00
+CUST005325,Customer 05325,customer05325@example.com,Kolkata,West Bengal,Premium,Social,2026-08-08,2026-09-25 10:00:00
+CUST005326,Customer 05326,customer05326@example.com,Ahmedabad,Gujarat,Premium,Social,2026-08-03,2026-09-25 10:00:00
+CUST005327,Customer 05327,customer05327@example.com,Kolkata,West Bengal,Returning,Social,2026-08-10,2026-09-25 10:00:00
+CUST005328,Customer 05328,customer05328@example.com,Mumbai,Maharashtra,Premium,Organic,2026-08-10,2026-09-25 10:00:00
+CUST005329,Customer 05329,customer05329@example.com,Ahmedabad,Gujarat,Dormant,Social,2026-08-01,2026-09-25 10:00:00
+CUST005330,Customer 05330,customer05330@example.com,Kolkata,West Bengal,Returning,Organic,2026-08-23,2026-09-25 10:00:00
+CUST005331,Customer 05331,customer05331@example.com,Jaipur,Rajasthan,Returning,Direct,2026-08-27,2026-09-25 10:00:00
+CUST005332,Customer 05332,customer05332@example.com,Kolkata,West Bengal,Premium,Affiliate,2026-08-05,2026-09-25 10:00:00
+CUST005333,Customer 05333,customer05333@example.com,Pune,Maharashtra,Premium,Affiliate,2026-08-28,2026-09-25 10:00:00
+CUST005334,Customer 05334,customer05334@example.com,Jaipur,Rajasthan,Dormant,Social,2026-08-25,2026-09-25 10:00:00
+CUST005335,Customer 05335,customer05335@example.com,Delhi,Delhi,Dormant,Direct,2026-08-08,2026-09-25 10:00:00
+CUST005336,Customer 05336,missing@email,Kolkata,West Bengal,Premium,Direct,2026-08-23,2026-09-25 10:00:00
+CUST005337,Customer 05337,customer05337@example.com,Hyderabad,Telangana,Dormant,Organic,2026-08-30,2026-09-25 10:00:00
+CUST005338,Customer 05338,customer05338@example.com,Chennai,Tamil Nadu,Dormant,Direct,2026-08-04,2026-09-25 10:00:00
+CUST005339,Customer 05339,customer05339@example.com,Ahmedabad,Gujarat,New,Affiliate,2026-08-10,2026-09-25 10:00:00
+CUST005340,Customer 05340,customer05340@example.com,Chennai,Tamil Nadu,Dormant,Paid Ads,2026-08-30,2026-09-25 10:00:00
+CUST005341,Customer 05341,customer05341@example.com,Hyderabad,Telangana,Returning,Paid Ads,2026-08-24,2026-09-25 10:00:00
+CUST005342,Customer 05342,customer05342@example.com,Ahmedabad,Gujarat,Dormant,Affiliate,2026-08-02,2026-09-25 10:00:00
+CUST005343,Customer 05343,customer05343@example.com,Kolkata,West Bengal,Returning,Organic,2026-08-05,2026-09-25 10:00:00
+CUST005344,Customer 05344,missing@email,Mumbai,Maharashtra,New,Organic,2026-08-20,2026-09-25 10:00:00
+CUST005345,Customer 05345,customer05345@example.com,Ahmedabad,Gujarat,New,Affiliate,2026-08-10,2026-09-25 10:00:00
+CUST005346,Customer 05346,customer05346@example.com,Delhi,Delhi,Returning,Social,2026-08-17,2026-09-25 10:00:00
+CUST005347,Customer 05347,customer05347@example.com,Jaipur,Rajasthan,New,Email,2026-08-02,2026-09-25 10:00:00
+CUST005348,Customer 05348,customer05348@example.com,Kolkata,West Bengal,Premium,Direct,2026-08-25,2026-09-25 10:00:00
+CUST005349,Customer 05349,customer05349@example.com,Bengaluru,Karnataka,New,Social,2026-08-20,2026-09-25 10:00:00
+CUST005350,Customer 05350,customer05350@example.com,Noida,Uttar Pradesh,New,Social,2026-08-11,2026-09-25 10:00:00
+CUST005351,Customer 05351,customer05351@example.com,Jaipur,Rajasthan,Returning,Email,2026-08-27,2026-09-25 10:00:00
+CUST005352,Customer 05352,customer05352@example.com,Mumbai,Maharashtra,New,Social,2026-08-06,2026-09-25 10:00:00
+CUST005353,Customer 05353,customer05353@example.com,Kolkata,West Bengal,New,Social,2026-08-26,2026-09-25 10:00:00
+CUST005354,Customer 05354,customer05354@example.com,Delhi,Delhi,New,Organic,2026-08-16,2026-09-25 10:00:00
+CUST005355,Customer 05355,customer05355@example.com,Mumbai,Maharashtra,Dormant,Social,2026-08-02,2026-09-25 10:00:00
+CUST005356,Customer 05356,customer05356@example.com,Delhi,Delhi,Dormant,Direct,2026-08-11,2026-09-25 10:00:00
+CUST005357,Customer 05357,customer05357@example.com,Kolkata,West Bengal,New,Affiliate,2026-08-26,2026-09-25 10:00:00
+CUST005358,Customer 05358,customer05358@example.com,Jaipur,Rajasthan,Returning,Paid Ads,2026-08-02,2026-09-25 10:00:00
+CUST005359,Customer 05359,customer05359@example.com,Kolkata,West Bengal,New,Social,2026-08-11,2026-09-25 10:00:00
+CUST005360,Customer 05360,customer05360@example.com,Hyderabad,Telangana,Premium,Organic,2026-08-18,2026-09-25 10:00:00
+CUST005361,Customer 05361,customer05361@example.com,Hyderabad,Telangana,New,Email,2026-08-17,2026-09-25 10:00:00
+CUST005362,Customer 05362,customer05362@example.com,Chennai,Tamil Nadu,New,Direct,2026-08-22,2026-09-25 10:00:00
+CUST005363,Customer 05363,customer05363@example.com,Ahmedabad,Gujarat,Returning,Email,2026-08-16,2026-09-25 10:00:00
+CUST005364,Customer 05364,customer05364@example.com,Bengaluru,Karnataka,Returning,Organic,2026-08-14,2026-09-25 10:00:00
+CUST005365,Customer 05365,customer05365@example.com,Mumbai,Maharashtra,Dormant,Email,2026-08-22,2026-09-25 10:00:00
+CUST005366,Customer 05366,customer05366@example.com,Pune,Maharashtra,New,Social,2026-08-06,2026-09-25 10:00:00
+CUST005367,Customer 05367,customer05367@example.com,Pune,Maharashtra,Premium,Social,2026-08-11,2026-09-25 10:00:00
+CUST005368,Customer 05368,customer05368@example.com,Kolkata,West Bengal,Dormant,Social,2026-08-30,2026-09-25 10:00:00
+CUST005369,Customer 05369,customer05369@example.com,Chennai,Tamil Nadu,New,Affiliate,2026-08-13,2026-09-25 10:00:00
+CUST005370,Customer 05370,customer05370@example.com,Kolkata,West Bengal,Premium,Direct,2026-08-01,2026-09-25 10:00:00
+CUST005371,Customer 05371,customer05371@example.com,Kolkata,West Bengal,Returning,Email,2026-08-06,2026-09-25 10:00:00
+CUST005372,Customer 05372,customer05372@example.com,Kolkata,West Bengal,Dormant,Direct,2026-08-12,2026-09-25 10:00:00
+CUST005373,Customer 05373,customer05373@example.com,Ahmedabad,Gujarat,New,Direct,2026-08-24,2026-09-25 10:00:00
+CUST005374,Customer 05374,customer05374@example.com,Delhi,Delhi,Premium,Affiliate,2026-08-11,2026-09-25 10:00:00
+CUST005375,Customer 05375,customer05375@example.com,Pune,Maharashtra,New,Social,2026-08-20,2026-09-25 10:00:00
+CUST005376,Customer 05376,customer05376@example.com,Hyderabad,Telangana,New,Paid Ads,2026-08-02,2026-09-25 10:00:00
+CUST005377,Customer 05377,customer05377@example.com,Pune,Maharashtra,Dormant,Paid Ads,2026-08-24,2026-09-25 10:00:00
+CUST005378,Customer 05378,customer05378@example.com,Mumbai,Maharashtra,Dormant,Organic,2026-08-11,2026-09-25 10:00:00
+CUST005379,Customer 05379,customer05379@example.com,Mumbai,Maharashtra,New,Organic,2026-08-27,2026-09-25 10:00:00
+CUST005380,Customer 05380,customer05380@example.com,Mumbai,Maharashtra,Premium,Organic,2026-08-14,2026-09-25 10:00:00
+CUST005381,Customer 05381,customer05381@example.com,Kolkata,West Bengal,Returning,Social,2026-08-18,2026-09-25 10:00:00
+CUST005382,Customer 05382,customer05382@example.com,Bengaluru,Karnataka,Dormant,Organic,2026-08-22,2026-09-25 10:00:00
+CUST005383,Customer 05383,customer05383@example.com,Ahmedabad,Gujarat,New,Paid Ads,2026-08-01,2026-09-25 10:00:00
+CUST005384,Customer 05384,customer05384@example.com,Pune,Maharashtra,Dormant,Paid Ads,2026-08-15,2026-09-25 10:00:00
+CUST005385,Customer 05385,customer05385@example.com,Chennai,Tamil Nadu,Premium,Email,2026-08-04,2026-09-25 10:00:00
+CUST005386,Customer 05386,customer05386@example.com,Delhi,Delhi,New,Organic,2026-08-12,2026-09-25 10:00:00
+CUST005387,Customer 05387,customer05387@example.com,Pune,Maharashtra,Returning,Paid Ads,2026-08-01,2026-09-25 10:00:00
+CUST005388,Customer 05388,customer05388@example.com,Delhi,Delhi,Dormant,Social,2026-08-20,2026-09-25 10:00:00
+CUST005389,Customer 05389,customer05389@example.com,Mumbai,Maharashtra,Returning,Social,2026-08-29,2026-09-25 10:00:00
+CUST005390,Customer 05390,customer05390@example.com,Ahmedabad,Gujarat,Returning,Affiliate,2026-08-17,2026-09-25 10:00:00
+CUST005391,Customer 05391,customer05391@example.com,Chennai,Tamil Nadu,Dormant,Organic,2026-08-19,2026-09-25 10:00:00
+CUST005392,Customer 05392,customer05392@example.com,Noida,Uttar Pradesh,Returning,Affiliate,2026-08-23,2026-09-25 10:00:00
+CUST005393,Customer 05393,customer05393@example.com,Bengaluru,Karnataka,Premium,Affiliate,2026-08-18,2026-09-25 10:00:00
+CUST005394,Customer 05394,customer05394@example.com,Bengaluru,Karnataka,New,Email,2026-08-03,2026-09-25 10:00:00
+CUST005395,Customer 05395,customer05395@example.com,Bengaluru,Karnataka,New,Affiliate,2026-08-05,2026-09-25 10:00:00
+CUST005396,Customer 05396,customer05396@example.com,Ahmedabad,Gujarat,New,Affiliate,2026-08-01,2026-09-25 10:00:00
+CUST005397,Customer 05397,customer05397@example.com,Hyderabad,Telangana,Dormant,Email,2026-08-08,2026-09-25 10:00:00
+CUST005398,Customer 05398,customer05398@example.com,Hyderabad,Telangana,Returning,Affiliate,2026-08-04,2026-09-25 10:00:00
+CUST005399,Customer 05399,customer05399@example.com,Kolkata,West Bengal,Premium,Email,2026-08-05,2026-09-25 10:00:00
+CUST005400,Customer 05400,customer05400@example.com,Chennai,Tamil Nadu,Premium,Direct,2026-08-12,2026-09-25 10:00:00
+CUST005401,Customer 05401,customer05401@example.com,Chennai,Tamil Nadu,Dormant,Social,2026-08-30,2026-09-25 10:00:00
+CUST005402,Customer 05402,customer05402@example.com,Delhi,Delhi,Dormant,Email,2026-08-10,2026-09-25 10:00:00
+CUST005403,Customer 05403,customer05403@example.com,Pune,Maharashtra,Dormant,Affiliate,2026-08-05,2026-09-25 10:00:00
+CUST005404,Customer 05404,customer05404@example.com,Hyderabad,Telangana,Dormant,Organic,2026-08-24,2026-09-25 10:00:00
+CUST005405,Customer 05405,customer05405@example.com,Mumbai,Maharashtra,New,Paid Ads,2026-08-03,2026-09-25 10:00:00
+CUST005406,Customer 05406,customer05406@example.com,Chennai,Tamil Nadu,New,Social,2026-08-14,2026-09-25 10:00:00
+CUST005407,Customer 05407,customer05407@example.com,Delhi,Delhi,Returning,Direct,2026-08-10,2026-09-25 10:00:00
+CUST005408,Customer 05408,customer05408@example.com,Mumbai,Maharashtra,Premium,Social,2026-08-03,2026-09-25 10:00:00
+CUST005409,Customer 05409,customer05409@example.com,Mumbai,Maharashtra,Returning,Email,2026-08-02,2026-09-25 10:00:00
+CUST005410,Customer 05410,customer05410@example.com,Kolkata,West Bengal,New,Organic,2026-08-29,2026-09-25 10:00:00
+CUST005411,Customer 05411,customer05411@example.com,Hyderabad,Telangana,Premium,Organic,2026-08-22,2026-09-25 10:00:00
+CUST005412,Customer 05412,customer05412@example.com,Delhi,Delhi,Dormant,Direct,2026-08-23,2026-09-25 10:00:00
+CUST005413,Customer 05413,customer05413@example.com,Kolkata,West Bengal,Dormant,Social,2026-08-18,2026-09-25 10:00:00
+CUST005414,Customer 05414,customer05414@example.com,Kolkata,West Bengal,Returning,Organic,2026-08-21,2026-09-25 10:00:00
+CUST005415,Customer 05415,customer05415@example.com,Pune,Maharashtra,Dormant,Paid Ads,2026-08-13,2026-09-25 10:00:00
+CUST005416,Customer 05416,customer05416@example.com,Delhi,Delhi,Returning,Organic,2026-08-28,2026-09-25 10:00:00
+CUST005417,Customer 05417,customer05417@example.com,Chennai,Tamil Nadu,Dormant,Social,2026-08-21,2026-09-25 10:00:00
+CUST005418,Customer 05418,customer05418@example.com,Bengaluru,Karnataka,Dormant,Email,2026-08-16,2026-09-25 10:00:00
+CUST005419,Customer 05419,customer05419@example.com,Noida,Uttar Pradesh,Premium,Affiliate,2026-08-23,2026-09-25 10:00:00
+CUST005420,Customer 05420,customer05420@example.com,Chennai,Tamil Nadu,New,Affiliate,2026-08-23,2026-09-25 10:00:00
+CUST005421,Customer 05421,customer05421@example.com,Bengaluru,Karnataka,New,Direct,2026-08-23,2026-09-25 10:00:00
+CUST005422,Customer 05422,customer05422@example.com,Ahmedabad,Gujarat,Returning,Direct,2026-08-18,2026-09-25 10:00:00
+CUST005423,Customer 05423,customer05423@example.com,Kolkata,West Bengal,Premium,Organic,2026-08-23,2026-09-25 10:00:00
+CUST005424,Customer 05424,customer05424@example.com,Chennai,Tamil Nadu,New,Direct,2026-08-13,2026-09-25 10:00:00
+CUST005425,Customer 05425,customer05425@example.com,Mumbai,Maharashtra,Dormant,Paid Ads,2026-08-01,2026-09-25 10:00:00
+CUST005426,Customer 05426,customer05426@example.com,Bengaluru,Karnataka,Premium,Paid Ads,2026-08-17,2026-09-25 10:00:00
+CUST005427,Customer 05427,customer05427@example.com,Kolkata,West Bengal,New,Direct,2026-08-02,2026-09-25 10:00:00
+CUST005428,Customer 05428,customer05428@example.com,Kolkata,West Bengal,Premium,Affiliate,2026-08-04,2026-09-25 10:00:00
+CUST005429,Customer 05429,customer05429@example.com,Pune,Maharashtra,Returning,Paid Ads,2026-08-21,2026-09-25 10:00:00
+CUST005430,Customer 05430,customer05430@example.com,Mumbai,Maharashtra,Dormant,Direct,2026-08-01,2026-09-25 10:00:00
+CUST005431,Customer 05431,customer05431@example.com,Hyderabad,Telangana,New,Email,2026-08-12,2026-09-25 10:00:00
+CUST005432,Customer 05432,customer05432@example.com,Chennai,Tamil Nadu,Returning,Direct,2026-08-09,2026-09-25 10:00:00
+CUST005433,Customer 05433,customer05433@example.com,Noida,Uttar Pradesh,New,Affiliate,2026-08-11,2026-09-25 10:00:00
+CUST005434,Customer 05434,customer05434@example.com,Chennai,Tamil Nadu,Returning,Email,2026-08-17,2026-09-25 10:00:00
+CUST005435,Customer 05435,customer05435@example.com,Kolkata,West Bengal,Premium,Email,2026-08-19,2026-09-25 10:00:00
+CUST005436,Customer 05436,customer05436@example.com,Pune,Maharashtra,New,Email,2026-08-23,2026-09-25 10:00:00
+CUST005437,Customer 05437,customer05437@example.com,Delhi,Delhi,Returning,Social,2026-08-10,2026-09-25 10:00:00
+CUST005438,Customer 05438,customer05438@example.com,Bengaluru,Karnataka,Dormant,Organic,2026-08-09,2026-09-25 10:00:00
+CUST005439,Customer 05439,customer05439@example.com,Pune,Maharashtra,Returning,Affiliate,2026-08-04,2026-09-25 10:00:00
+CUST005440,Customer 05440,customer05440@example.com,Ahmedabad,Gujarat,Premium,Paid Ads,2026-08-23,2026-09-25 10:00:00
+CUST005441,Customer 05441,customer05441@example.com,Delhi,Delhi,Dormant,Direct,2026-08-30,2026-09-25 10:00:00
+CUST005442,Customer 05442,customer05442@example.com,Chennai,Tamil Nadu,Premium,Direct,2026-08-15,2026-09-25 10:00:00
+CUST005443,Customer 05443,customer05443@example.com,Chennai,Tamil Nadu,Dormant,Social,2026-08-02,2026-09-25 10:00:00
+CUST005444,Customer 05444,customer05444@example.com,Noida,Uttar Pradesh,Returning,Organic,2026-08-04,2026-09-25 10:00:00
+CUST005445,Customer 05445,customer05445@example.com,Ahmedabad,Gujarat,Dormant,Paid Ads,2026-08-13,2026-09-25 10:00:00
+CUST005446,Customer 05446,customer05446@example.com,Jaipur,Rajasthan,New,Paid Ads,2026-08-11,2026-09-25 10:00:00
+CUST005447,Customer 05447,customer05447@example.com,Chennai,Tamil Nadu,Returning,Direct,2026-08-23,2026-09-25 10:00:00
+CUST005448,Customer 05448,customer05448@example.com,Kolkata,West Bengal,New,Social,2026-08-19,2026-09-25 10:00:00
+CUST005449,Customer 05449,customer05449@example.com,Ahmedabad,Gujarat,Premium,Social,2026-08-25,2026-09-25 10:00:00
+CUST005450,Customer 05450,customer05450@example.com,Delhi,Delhi,New,Affiliate,2026-08-13,2026-09-25 10:00:00
+CUST005451,Customer 05451,customer05451@example.com,Jaipur,Rajasthan,New,Social,2026-08-14,2026-09-25 10:00:00
+CUST005452,Customer 05452,customer05452@example.com,Pune,Maharashtra,Premium,Email,2026-08-09,2026-09-25 10:00:00
+CUST005453,Customer 05453,customer05453@example.com,Pune,Maharashtra,Dormant,Direct,2026-08-08,2026-09-25 10:00:00
+CUST005454,Customer 05454,customer05454@example.com,Chennai,Tamil Nadu,New,Affiliate,2026-08-01,2026-09-25 10:00:00
+CUST005455,Customer 05455,customer05455@example.com,Ahmedabad,Gujarat,Premium,Organic,2026-08-20,2026-09-25 10:00:00
+CUST005456,Customer 05456,customer05456@example.com,Ahmedabad,Gujarat,Dormant,Email,2026-08-02,2026-09-25 10:00:00
+CUST005457,Customer 05457,customer05457@example.com,Kolkata,West Bengal,Premium,Email,2026-08-13,2026-09-25 10:00:00
+CUST005458,Customer 05458,customer05458@example.com,Jaipur,Rajasthan,Dormant,Social,2026-08-12,2026-09-25 10:00:00
+CUST005459,Customer 05459,customer05459@example.com,Ahmedabad,Gujarat,Dormant,Email,2026-08-07,2026-09-25 10:00:00
+CUST005460,Customer 05460,customer05460@example.com,Delhi,Delhi,Dormant,Affiliate,2026-08-07,2026-09-25 10:00:00
+CUST005461,Customer 05461,customer05461@example.com,Mumbai,Maharashtra,Premium,Paid Ads,2026-08-22,2026-09-25 10:00:00
+CUST005462,Customer 05462,customer05462@example.com,Noida,Uttar Pradesh,New,Direct,2026-08-08,2026-09-25 10:00:00
+CUST005463,Customer 05463,customer05463@example.com,Noida,Uttar Pradesh,Premium,Affiliate,2026-08-15,2026-09-25 10:00:00
+CUST005464,Customer 05464,customer05464@example.com,Bengaluru,Karnataka,Returning,Direct,2026-08-02,2026-09-25 10:00:00
+CUST005465,Customer 05465,customer05465@example.com,Jaipur,Rajasthan,Returning,Paid Ads,2026-08-19,2026-09-25 10:00:00
+CUST005466,Customer 05466,customer05466@example.com,Ahmedabad,Gujarat,Premium,Email,2026-08-12,2026-09-25 10:00:00
+CUST005467,Customer 05467,customer05467@example.com,Ahmedabad,Gujarat,New,Direct,2026-08-14,2026-09-25 10:00:00
+CUST005468,Customer 05468,customer05468@example.com,Bengaluru,Karnataka,Premium,Organic,2026-08-12,2026-09-25 10:00:00
+CUST005469,Customer 05469,customer05469@example.com,Pune,Maharashtra,Premium,Email,2026-08-08,2026-09-25 10:00:00
+CUST005470,Customer 05470,customer05470@example.com,Delhi,Delhi,Returning,Paid Ads,2026-08-25,2026-09-25 10:00:00
+CUST005471,Customer 05471,customer05471@example.com,Delhi,Delhi,Premium,Organic,2026-08-27,2026-09-25 10:00:00
+CUST005472,Customer 05472,customer05472@example.com,Delhi,Delhi,Dormant,Affiliate,2026-08-24,2026-09-25 10:00:00
+CUST005473,Customer 05473,customer05473@example.com,Kolkata,West Bengal,Returning,Social,2026-08-24,2026-09-25 10:00:00
+CUST005474,Customer 05474,customer05474@example.com,Noida,Uttar Pradesh,New,Paid Ads,2026-08-06,2026-09-25 10:00:00
+CUST005475,Customer 05475,customer05475@example.com,Chennai,Tamil Nadu,Returning,Paid Ads,2026-08-10,2026-09-25 10:00:00
+CUST005476,Customer 05476,customer05476@example.com,Mumbai,Maharashtra,Returning,Affiliate,2026-08-30,2026-09-25 10:00:00
+CUST005477,Customer 05477,missing@email,Noida,Uttar Pradesh,Premium,Direct,2026-08-30,2026-09-25 10:00:00
+CUST005478,Customer 05478,customer05478@example.com,Hyderabad,Telangana,New,Organic,2026-08-20,2026-09-25 10:00:00
+CUST005479,Customer 05479,customer05479@example.com,Hyderabad,Telangana,Premium,Email,2026-08-08,2026-09-25 10:00:00
+CUST005480,Customer 05480,customer05480@example.com,Chennai,Tamil Nadu,Premium,Social,2026-08-23,2026-09-25 10:00:00
+CUST005481,Customer 05481,customer05481@example.com,Ahmedabad,Gujarat,Premium,Paid Ads,2026-08-15,2026-09-25 10:00:00
+CUST005482,Customer 05482,customer05482@example.com,Noida,Uttar Pradesh,Returning,Paid Ads,2026-08-30,2026-09-25 10:00:00
+CUST005483,Customer 05483,customer05483@example.com,Hyderabad,Telangana,Dormant,Email,2026-08-28,2026-09-25 10:00:00
+CUST005484,Customer 05484,customer05484@example.com,Pune,Maharashtra,New,Paid Ads,2026-08-08,2026-09-25 10:00:00
+CUST005485,Customer 05485,customer05485@example.com,Chennai,Tamil Nadu,Premium,Direct,2026-08-24,2026-09-25 10:00:00
+CUST005486,Customer 05486,customer05486@example.com,Noida,Uttar Pradesh,New,Affiliate,2026-08-23,2026-09-25 10:00:00
+CUST005487,Customer 05487,customer05487@example.com,Delhi,Delhi,New,Affiliate,2026-08-29,2026-09-25 10:00:00
+CUST005488,Customer 05488,customer05488@example.com,Pune,Maharashtra,New,Affiliate,2026-08-13,2026-09-25 10:00:00
+CUST005489,Customer 05489,customer05489@example.com,Mumbai,Maharashtra,Premium,Organic,2026-08-30,2026-09-25 10:00:00
+CUST005490,Customer 05490,customer05490@example.com,Kolkata,West Bengal,Returning,Direct,2026-08-16,2026-09-25 10:00:00
+CUST005491,Customer 05491,customer05491@example.com,Jaipur,Rajasthan,New,Paid Ads,2026-08-19,2026-09-25 10:00:00
+CUST005492,Customer 05492,customer05492@example.com,Mumbai,Maharashtra,Premium,Social,2026-08-01,2026-09-25 10:00:00
+CUST005493,Customer 05493,customer05493@example.com,Delhi,Delhi,Dormant,Email,2026-08-14,2026-09-25 10:00:00
+CUST005494,Customer 05494,customer05494@example.com,Pune,Maharashtra,New,Affiliate,2026-08-08,2026-09-25 10:00:00
+CUST005495,Customer 05495,customer05495@example.com,Mumbai,Maharashtra,New,Direct,2026-08-10,2026-09-25 10:00:00
+CUST005496,Customer 05496,customer05496@example.com,Bengaluru,Karnataka,Premium,Affiliate,2026-08-01,2026-09-25 10:00:00
+CUST005497,Customer 05497,customer05497@example.com,Bengaluru,Karnataka,Premium,Affiliate,2026-08-21,2026-09-25 10:00:00
+CUST005498,Customer 05498,customer05498@example.com,Pune,Maharashtra,Premium,Direct,2026-08-20,2026-09-25 10:00:00
+CUST005499,Customer 05499,customer05499@example.com,Kolkata,West Bengal,Premium,Direct,2026-08-17,2026-09-25 10:00:00
+CUST005500,Customer 05500,customer05500@example.com,Jaipur,Rajasthan,Returning,Direct,2026-08-13,2026-09-25 10:00:00
