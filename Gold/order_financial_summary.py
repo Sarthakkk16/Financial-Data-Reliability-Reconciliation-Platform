@@ -1,0 +1,55 @@
+from pyspark.sql.functions import col,sum,coalesce,count,when,round
+catalog="`reconciliation-platform`"
+orders=spark.table(f"{catalog}.silver.orders")
+items=spark.table(f"{catalog}.silver.order_items")
+payments=spark.table(f"{catalog}.silver.payments")
+customers=spark.table(f"{catalog}.silver.customers")
+item_summary=(items.groupBy("order_id")
+    .agg(
+        sum("quantity").alias("total_quantity"),
+        sum("item_total").alias("item_value"),
+        count("order_item_id").alias("item_count")
+    ))
+payment_summary=(payments.groupBy("order_id")
+    .agg(
+        sum(when(col("payment_status")=="success",col("amount")).otherwise(0)).alias("successful_payment_amount"),
+        count(when(col("payment_status")=="success",True)).alias("successful_payment_count"),
+        sum(when(col("payment_status")=="failed",col("amount")).otherwise(0)).alias("failed_payment_amount"),
+        sum(when(col("payment_status")=="refunded",col("amount")).otherwise(0)).alias("refunded_amount"),
+        sum("transaction_fee").alias("total_transaction_fee")
+    ))
+order_financial=(orders.alias("o")
+    .join(customers.alias("c"),col("o.customer_id")==col("c.customer_id"),"left")
+    .join(item_summary.alias("i"),col("o.order_id")==col("i.order_id"),"left")
+    .join(payment_summary.alias("p"),col("o.order_id")==col("p.order_id"),"left")
+    .select(
+        col("o.order_id"),
+        col("o.customer_id"),
+        col("c.customer_name"),
+        col("c.customer_segment"),
+        col("c.city"),
+        col("c.state"),
+        col("o.order_date"),
+        col("o.order_status"),
+        col("o.payment_method"),
+        col("o.currency"),
+        col("o.gross_amount"),
+        col("o.discount_amount"),
+        col("o.shipping_fee"),
+        col("o.tax_amount"),
+        col("o.net_amount"),
+        coalesce(col("i.total_quantity"),col("p.successful_payment_count")*0).alias("total_quantity"),
+        coalesce(col("i.item_count"),col("p.successful_payment_count")*0).alias("item_count"),
+        coalesce(col("i.item_value"),col("o.net_amount")*0).alias("item_value"),
+        coalesce(col("p.successful_payment_amount"),col("o.net_amount")*0).alias("successful_payment_amount"),
+        coalesce(col("p.successful_payment_count"),col("o.net_amount")*0).alias("successful_payment_count"),
+        coalesce(col("p.failed_payment_amount"),col("o.net_amount")*0).alias("failed_payment_amount"),
+        coalesce(col("p.refunded_amount"),col("o.net_amount")*0).alias("refunded_amount"),
+        coalesce(col("p.total_transaction_fee"),col("o.net_amount")*0).alias("total_transaction_fee")
+    )
+    .withColumn("payment_amount_difference",round(col("net_amount")-col("successful_payment_amount"),2))
+    .withColumn("reconciliation_status",
+        when((col("order_status")=="completed")&(col("successful_payment_amount")==0),"payment_missing")
+        .when(abs(col("payment_amount_difference"))<0.01,"reconciled")
+        .when(col("successful_payment_amount")>0,"amount_mismatch")
+        .otherwise("unpaid")))

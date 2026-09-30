@@ -1,0 +1,29 @@
+from pyspark.sql.functions import col,count,sum,avg,max,coalesce
+orders=spark.table(f"{catalog}.silver.orders")
+payments=spark.table(f"{catalog}.silver.payments")
+customers=spark.table(f"{catalog}.silver.customers")
+payment_summary=(payments.filter(col("payment_status")=="success")
+    .groupBy("order_id")
+    .agg(sum("amount").alias("successful_payment_amount")))
+customer_revenue=(orders.alias("o")
+    .join(customers.alias("c"),col("o.customer_id")==col("c.customer_id"),"left")
+    .join(payment_summary.alias("p"),col("o.order_id")==col("p.order_id"),"left")
+    .groupBy(
+        col("o.customer_id"),
+        col("c.customer_name"),
+        col("c.customer_segment"),
+        col("c.city"),
+        col("c.state"),
+        col("c.acquisition_channel")
+    )
+    .agg(
+        count("o.order_id").alias("total_orders"),
+        sum(when(col("o.order_status")=="completed",1).otherwise(0)).alias("completed_orders"),
+        sum("o.gross_amount").alias("gross_revenue"),
+        sum("o.discount_amount").alias("total_discount"),
+        sum("o.net_amount").alias("net_revenue"),
+        sum(coalesce(col("p.successful_payment_amount"),col("o.net_amount")*0)).alias("successful_payment_amount"),
+        avg("o.net_amount").alias("average_order_value"),
+        max("o.order_date").alias("last_order_date")
+    ))
+customer_revenue.write.format("delta").mode("overwrite").option("overwriteSchema","true").saveAsTable(f"{catalog}.gold.customer_revenue")

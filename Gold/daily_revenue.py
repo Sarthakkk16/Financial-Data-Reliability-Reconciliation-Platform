@@ -1,0 +1,26 @@
+from pyspark.sql.functions import col,count,sum,when,round,to_date
+orders=spark.table(f"{catalog}.silver.orders")
+payments=spark.table(f"{catalog}.silver.payments")
+payment_daily=(payments.groupBy(to_date("payment_date").alias("date"))
+    .agg(
+        sum(when(col("payment_status")=="success",col("amount")).otherwise(0)).alias("successful_payment_amount"),
+        sum(when(col("payment_status")=="refunded",col("amount")).otherwise(0)).alias("refunded_amount"),
+        sum("transaction_fee").alias("transaction_fees")
+    ))
+daily_revenue=(orders
+    .groupBy(to_date("order_date").alias("date"))
+    .agg(
+        count("order_id").alias("total_orders"),
+        sum(when(col("order_status")=="completed",1).otherwise(0)).alias("completed_orders"),
+        sum(when(col("order_status")=="cancelled",1).otherwise(0)).alias("cancelled_orders"),
+        sum("gross_amount").alias("gross_revenue"),
+        sum("discount_amount").alias("total_discount"),
+        sum("shipping_fee").alias("shipping_revenue"),
+        sum("tax_amount").alias("tax_amount"),
+        sum("net_amount").alias("net_revenue"),
+        avg("net_amount").alias("average_order_value")
+    )
+    .join(payment_daily,"date","left")
+    .fillna(0,["successful_payment_amount","refunded_amount","transaction_fees"])
+    .withColumn("net_revenue_after_fees",round(col("net_revenue")-col("transaction_fees"),2)))
+daily_revenue.write.format("delta").mode("overwrite").option("overwriteSchema","true").saveAsTable(f"{catalog}.gold.daily_revenue")
